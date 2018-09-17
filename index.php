@@ -113,7 +113,7 @@ function checkInput($data) {
                     <ul class="flex">
                         <li><a href="">Електромонтаж</a></li>
                         <li><a href="">Відеоспостереження</a></li>
-                        <li><a href="">Наші роботи</a></li>
+                        <li><a href="works.php">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__nav_icon order-1">
@@ -125,7 +125,7 @@ function checkInput($data) {
                     <ul class="flex">
                         <li><a href="">Електромонтаж</a></li>
                         <li><a href="">Відеоспостереження</a></li>
-                        <li><a href="">Наші роботи</a></li>
+                        <li><a href="works.php">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -136,7 +136,7 @@ function checkInput($data) {
             <main class="main col">
                 <div class="row align-items-center">
                     <div class="main__content-left col-12 col-lg-5 text-center text-lg-left">
-                        <svg id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg class="pulse-button" id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <path d="m256 0c-141.382812 0-256 114.617188-256 256 0 141.386719 114.617188 256 256 256 141.386719 0 256-114.613281 256-256-.167969-141.316406-114.683594-255.832031-256-256zm0 480c-123.710938 0-224-100.289062-224-224s100.289062-224 224-224 224 100.289062 224 224c-.132812 123.65625-100.34375 223.867188-224 224zm0 0" fill="#fff" />
                             <path d="m375.871094 242.0625-160-90.496094c-7.691406-4.347656-17.453125-1.632812-21.800782 6.058594-1.355468 2.398438-2.070312 5.109375-2.070312 7.863281v181.023438c0 8.835937 7.164062 16 16 16 2.761719.003906 5.472656-.714844 7.871094-2.078125l160-90.496094c7.695312-4.34375 10.417968-14.101562 6.074218-21.796875-1.429687-2.542969-3.53125-4.644531-6.074218-6.078125zm-151.871094 77.011719v-126.144531l111.503906 63.070312zm0 0" fill="#fff" />
                         </svg>
@@ -147,7 +147,7 @@ function checkInput($data) {
                     </div>
                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
                         <h1>Робимо преміум-електромонтаж в квартирах і котеджах</h1>
-                        <button class="get-price pulse-button">отримати прайс-лист</button>
+                        <button class="get-price">отримати прайс-лист</button>
                         <div class="close-bg-btn" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                         <div class="main__content_form" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
                             <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
