@@ -47,9 +47,7 @@ ul li {
     flex-wrap: wrap;
 }
 
-.close-bg,
-.close-bg-btn,
-.close-bg-policy {
+.close-bg {
     display: none;
     position: fixed;
     top: 0;
@@ -345,7 +343,7 @@ ul li {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    z-index: 100;
+    z-index: 1000;
     max-width: 100%;
     width: 50%;
     height: 60%;
