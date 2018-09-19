@@ -91,7 +91,7 @@ function checkInput($data) {
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
+        <link rel="shortcut icon" href="img/favicon-ternoprof.ico" type="image/ico">
         <title>Ternoprof | Головна сторінка</title>
     </head>
 
@@ -144,6 +144,10 @@ function checkInput($data) {
                 </div>
             </header>
             <main class="main col">
+                <div class="contacts">
+                    <p><a href="tel:+380967596569">+380 96 759 6569</a></p>
+                    <p><a href="tel:+380664491767">+380 66 449 1767</a></p>
+                </div>
                 <div class="row align-items-center">
                     <div class="main__content-left col-12 col-lg-5 text-center text-lg-left">
                         <svg class="pulse-button" id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -158,8 +162,8 @@ function checkInput($data) {
                         <button class="get-price">отримати прайс-лист</button>
                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                         <div class="main__content_form" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
-                            <p class="proposition">Заповніть форму та завантажте прайс-ліст в один клік!</p>
                             <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
+                                <p class="proposition">Заповніть форму та завантажте прайс-ліст в один клік!</p>
                                 <div class="form-group">
                                     <label for="name">Ім'я</label>
                                     <input class="form-control" name="name" id="name" type="text" required>
@@ -176,7 +180,10 @@ function checkInput($data) {
                                         <?php echo $phoneErr;?>
                                     </div>
                                 </div>
-                                <input type="submit" value="Завантажити" name="form_submit">
+                                <div class="text-center">
+                                   <input type="submit" value="Завантажити" name="form_submit"> 
+                                </div>
+                                
                             </form>
                         </div>
                     </div>
@@ -215,7 +222,7 @@ function checkInput($data) {
                 <p>2.2. В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование сайта Ternoprof.com.ua </p>
                 <p>2.3. Настоящая Политика конфиденциальности применяется к сайту Ternoprof.com.ua. Сайт не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на сайте Ternoprof.com.ua.</p>
                 <p>2.4. Администрация не проверяет достоверность персональных данных, предоставляемых Пользователем.</p>
-                <h3>3. Предмет политики конфиденциальности</h3>
+                <h3 class="text-center">3. Предмет политики конфиденциальности</h3>
                 <p>3.1. Настоящая Политика конфиденциальности устанавливает обязательства Администрации по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации при регистрации на сайте Ternoprof.com.ua или при подписке на информационную e-mail рассылку.</p>
                 <p>3.2. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на сайте Ternoprof.com.ua и могут включать в себя следующую информацию:</p>
                 <p>3.2.1. фамилию, имя, отчество Пользователя;</p>
