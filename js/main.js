@@ -40,6 +40,9 @@
         if ($(".main__content_form").hasClass("show")) {
             $(".main__content_form").toggleClass("show");
             $(".close-bg").hide();
+        } else {
+            $(".main__content_form").hide();
+            $(".close-bg").hide();
         }
         if ($(".confidence-policy").hasClass("show")) {
             $(".confidence-policy").toggleClass("show");
@@ -48,7 +51,12 @@
     });
 
     $(".download").on("click", function() {
-        $(".status").delay(3000).hide("slow");
+        $(".status").delay(3000).hide();
+    });
+
+    $(".status-close").on("click", function() {
+        $(".status-close").hide();
+        $(".status").hide();
     });
 
 })(jQuery);

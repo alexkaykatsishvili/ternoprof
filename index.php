@@ -57,10 +57,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             //Send the email
             mail($to, $subject, $message, $headers);
 
-            ?>
-<div class="status flex">
-    <h2>Повідомлення відправлено</h2>
-    <p>Скачати <a class="download" href="" download>прайс-лист</a></p>
+        ?>
+<div class="status-close">
+    <div class="status flex modal-w">
+        <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+        <a class="download" href="" download>Скачати прайс-лист</a>
+    </div>
 </div>
 <?php
 
@@ -161,14 +163,14 @@ function checkInput($data) {
                         <h1>Робимо преміум-електромонтаж в квартирах і котеджах</h1>
                         <button class="get-price">отримати прайс-лист</button>
                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
-                        <div class="main__content_form" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
+                        <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
                             <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
-                                <p class="proposition">Заповніть форму та завантажте прайс-ліст в один клік!</p>
+                                <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
                                 <div class="form-group">
                                     <label for="name">Ім'я</label>
                                     <input class="form-control" name="name" id="name" type="text" required>
                                     <div class="invalid-feedback">This field is required.</div>
-                                    <div class="">
+                                    <div class="error">
                                         <?php echo $nameErr;?>
                                     </div>
                                 </div>
@@ -176,14 +178,13 @@ function checkInput($data) {
                                     <label for="phone">Телефон</label>
                                     <input class="form-control" name="phone" id="phone" type="tel" required value="+38">
                                     <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
-                                    <div class="">
+                                    <div class="error">
                                         <?php echo $phoneErr;?>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                   <input type="submit" value="Завантажити" name="form_submit"> 
+                                    <input type="submit" value="Завантажити" name="form_submit">
                                 </div>
-                                
                             </form>
                         </div>
                     </div>
@@ -204,7 +205,7 @@ function checkInput($data) {
             </div>
             <div class="layout-second">
             </div>
-            <div class="confidence-policy">
+            <div class="confidence-policy modal-w">
                 <h2 class="text-center">Политика конфиденциальности персональных данных</h2>
                 <p>Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <b>Ternoprof.com.ua</b>, (далее – Сайт) расположенный на доменном имени ternoprof.com.ua (а также его субдоменах), может получить о Пользователе во время использования сайта <b>ternoprof.com.ua</b> (а также его субдоменов), его программ и его продуктов.</p>
                 <h3 class="text-center">1. Определение терминов</h3>
