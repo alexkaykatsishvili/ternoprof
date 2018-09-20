@@ -17,37 +17,35 @@
         }
     });
 
-    $("#play").on("click", function() {
-        $(".video").toggleClass("show");
-        $(".close-bg").show();
-    });
+    function showUp(on, what) {
+        $(on).on("click", function() {
+            $(what).toggleClass("show");
+            $(".close-bg").show();
+        });
+    }
 
-    $(".get-price").on("click", function() {
-        $(".main__content_form").toggleClass("show");
-        $(".close-bg").show();
-    });
+    function hideUp(what) {
+        $(what).toggleClass("show");
+        $(".close-bg").hide();
+    }
 
-    $(".conf-pol").on("click", function() {
-        $(".confidence-policy").toggleClass("show");
-        $(".close-bg").show();
-    });
+    showUp("#play", ".video");
+    showUp(".get-price", ".main__content_form");
+    showUp(".conf-pol", ".confidence-policy");
 
     $(".close-bg").on("click", function() {
         if ($(".video").hasClass("show")) {
-            $(".video").toggleClass("show");
-            $(".close-bg").hide();
+            hideUp(".video");
             pause();
         }
         if ($(".main__content_form").hasClass("show")) {
-            $(".main__content_form").toggleClass("show");
-            $(".close-bg").hide();
+            hideUp(".main__content_form");
         } else {
             $(".main__content_form").hide();
             $(".close-bg").hide();
         }
         if ($(".confidence-policy").hasClass("show")) {
-            $(".confidence-policy").toggleClass("show");
-            $(".close-bg").hide();
+            hideUp(".confidence-policy");
         }
     });
 

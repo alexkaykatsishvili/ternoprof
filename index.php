@@ -58,12 +58,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             $send = mail($to, $subject, $message, $headers);
 
         ?>
-<div class="status flex modal-w">
-    <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-    <a class="download" href="#" download>Скачати прайс-лист</a>
-</div>
-<div class="status-close"></div>
-<?php
+        <div class="status flex modal-w">
+            <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+            <a class="download" href="#" download>Скачати прайс-лист</a>
+        </div>
+        <div class="status-close"></div>
+        <?php
 
         } 
 
