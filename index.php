@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             $nameErr = "Поле повинно бути заповнене";
         } else {
             $name = checkInput($_POST["name"]);
-            if (!preg_match("/^[а-яА-Я\p{Cyrillic}0-9\s\-]+$/u", $name)) {
+            if (!preg_match("/^[а-яА-Я\p{Cyrillic}\s\-]+$/u", $name)) {
                 $nameErr = "Ім'я може складатися лише з літер української мови"; 
             }
         }
@@ -55,15 +55,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($nameErr == null && $phoneErr == null) {
 
             //Send the email
-            mail($to, $subject, $message, $headers);
+            $send = mail($to, $subject, $message, $headers);
 
         ?>
-<div class="status-close">
-    <div class="status flex modal-w">
-        <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-        <a class="download" href="" download>Скачати прайс-лист</a>
-    </div>
+<div class="status flex modal-w">
+    <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+    <a class="download" href="#" download>Скачати прайс-лист</a>
 </div>
+<div class="status-close"></div>
 <?php
 
         } 
@@ -89,7 +88,7 @@ function checkInput($data) {
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
@@ -147,16 +146,16 @@ function checkInput($data) {
             </header>
             <main class="main col">
                 <div class="contacts">
-                    <p><a href="tel:+380967596569">+380 96 759 6569</a></p>
-                    <p><a href="tel:+380664491767">+380 66 449 1767</a></p>
+                    <a href="tel:+380967596569">+380 96 759 6569</a>
+                    <a href="tel:+380664491767">+380 66 449 1767</a>
                 </div>
                 <div class="row align-items-center">
-                    <div class="main__content-left col-12 col-lg-5 text-center text-lg-left">
+                    <div class="main__content-left col-12 col-lg-5 text-lg-left">
                         <svg class="pulse-button" id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <path d="m256 0c-141.382812 0-256 114.617188-256 256 0 141.386719 114.617188 256 256 256 141.386719 0 256-114.613281 256-256-.167969-141.316406-114.683594-255.832031-256-256zm0 480c-123.710938 0-224-100.289062-224-224s100.289062-224 224-224 224 100.289062 224 224c-.132812 123.65625-100.34375 223.867188-224 224zm0 0" fill="#fff" />
                             <path d="m375.871094 242.0625-160-90.496094c-7.691406-4.347656-17.453125-1.632812-21.800782 6.058594-1.355468 2.398438-2.070312 5.109375-2.070312 7.863281v181.023438c0 8.835937 7.164062 16 16 16 2.761719.003906 5.472656-.714844 7.871094-2.078125l160-90.496094c7.695312-4.34375 10.417968-14.101562 6.074218-21.796875-1.429687-2.542969-3.53125-4.644531-6.074218-6.078125zm-151.871094 77.011719v-126.144531l111.503906 63.070312zm0 0" fill="#fff" />
                         </svg>
-                        <p class="show-more text-center text-lg-left">Дізнайтеся про ідеальну електрику за 4 хвилини</p>
+                        <p class="show-more">Дізнайтеся про ідеальну електрику за 4 хвилини</p>
                         <iframe class="video" src="https://www.youtube.com/embed/MpvAbUMhkHM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
@@ -168,7 +167,7 @@ function checkInput($data) {
                                 <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
                                 <div class="form-group">
                                     <label for="name">Ім'я</label>
-                                    <input class="form-control" name="name" id="name" type="text" required>
+                                    <input class="form-control" name="name" id="name" type="text" placeholder="Петро" required>
                                     <div class="invalid-feedback">This field is required.</div>
                                     <div class="error">
                                         <?php echo $nameErr;?>
@@ -176,7 +175,7 @@ function checkInput($data) {
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Телефон</label>
-                                    <input class="form-control" name="phone" id="phone" type="tel" required value="+38">
+                                    <input class="form-control" name="phone" id="phone" type="tel" value="+38" placeholder="+380 96 759 6569" required>
                                     <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
                                     <div class="error">
                                         <?php echo $phoneErr;?>
@@ -198,9 +197,9 @@ function checkInput($data) {
                 </div>
                 <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
             </footer>
-            <!-- <video autoplay muted loop id="myVideo">
+            <video autoplay muted loop id="myVideo">
             <source src="assets/background.mp4" type="video/mp4">
-            </video> -->
+            </video>
             <div class="layout">
             </div>
             <div class="layout-second">

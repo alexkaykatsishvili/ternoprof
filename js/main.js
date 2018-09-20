@@ -52,6 +52,7 @@
 
     $(".download").on("click", function() {
         $(".status").delay(3000).hide();
+        $(".status-close").delay(3000).hide();
     });
 
     $(".status-close").on("click", function() {
