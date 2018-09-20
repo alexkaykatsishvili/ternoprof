@@ -36,6 +36,7 @@
         if ($(".video").hasClass("show")) {
             $(".video").toggleClass("show");
             $(".close-bg").hide();
+            pause();
         }
         if ($(".main__content_form").hasClass("show")) {
             $(".main__content_form").toggleClass("show");
