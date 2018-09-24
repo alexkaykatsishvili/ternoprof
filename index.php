@@ -122,8 +122,8 @@ function checkInput($data) {
                 </div>
                 <nav class="header__nav">
                     <ul class="flex">
-                        <li><a href="">Електромонтаж</a></li>
-                        <li><a href="">Відеоспостереження</a></li>
+                        <li><a href="./" class="active">Електромонтаж</a></li>
+                        <li><a href="video.php">Відеоспостереження</a></li>
                         <li><a href="works.php">Наші роботи</a></li>
                     </ul>
                 </nav>
@@ -134,8 +134,8 @@ function checkInput($data) {
                 </div>
                 <nav class="header__nav--mobile">
                     <ul class="flex">
-                        <li><a href="">Електромонтаж</a></li>
-                        <li><a href="">Відеоспостереження</a></li>
+                        <li><a href="./" class="active">Електромонтаж</a></li>
+                        <li><a href="video.php">Відеоспостереження</a></li>
                         <li><a href="works.php">Наші роботи</a></li>
                     </ul>
                 </nav>

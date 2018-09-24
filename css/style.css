@@ -50,6 +50,10 @@ ul li {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36db2ff', endColorstr='#007db9e8', GradientType=0);
 }
 
+.slick-slide:focus {
+    outline: none;
+}
+
 .contacts {
     display: none;
 }
@@ -437,6 +441,17 @@ ul li {
     font-family: BebasNeue, Helvetica, Arial, sans-serif;
 }
 
+.main__slider {
+    width: 50vw;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.main__slider img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 .footer {
     align-items: center;
     font-size: 18px;
@@ -530,6 +545,9 @@ ul li {
     .main__content-left .show-more {
         text-align: center;
         max-width: 100%;
+    }
+    .main__slider {
+        order: 2;
     }
 }
 

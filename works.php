@@ -38,8 +38,8 @@
             </div>
             <nav class="header__nav">
                 <ul class="flex">
-                    <li><a href="">Електромонтаж</a></li>
-                    <li><a href="">Відеоспостереження</a></li>
+                    <li><a href="./">Електромонтаж</a></li>
+                    <li><a href="video.php">Відеоспостереження</a></li>
                     <li><a href="works.php" class="active">Наші роботи</a></li>
                 </ul>
             </nav>
@@ -50,8 +50,8 @@
             </div>
             <nav class="header__nav--mobile">
                 <ul class="flex">
-                    <li><a href="">Електромонтаж</a></li>
-                    <li><a href="">Відеоспостереження</a></li>
+                    <li><a href="./">Електромонтаж</a></li>
+                    <li><a href="video.php">Відеоспостереження</a></li>
                     <li><a href="works.php" class="active">Наші роботи</a></li>
                 </ul>
             </nav>

@@ -51,6 +51,10 @@ ul {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36db2ff', endColorstr='#007db9e8', GradientType=0);
 }
 
+.slick-slide:focus {
+    outline: none;
+}
+
 .contacts {
     display: none;
 }
@@ -416,6 +420,15 @@ ul {
             }
         }
     }
+    &__slider {
+        width: 50vw;
+        overflow: hidden;
+        max-height: 100%;
+        img {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
 }
 
 .footer {
@@ -524,6 +537,9 @@ ul {
                 text-align: center;
                 max-width: 100%;
             }
+        }
+        &__slider {
+            order: 2;
         }
     }
 }

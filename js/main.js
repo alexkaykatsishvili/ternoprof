@@ -59,4 +59,15 @@
         $(".status").hide();
     });
 
+    $(document).ready(function(){
+      $('.main__slider').slick({
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows: false,
+        fade: true,
+        cssEase: 'linear'
+      });
+    });
+
 })(jQuery);
