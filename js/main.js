@@ -59,15 +59,28 @@
         $(".status").hide();
     });
 
-    $(document).ready(function(){
-      $('.main__slider').slick({
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
-        fade: true,
-        cssEase: 'linear'
-      });
+    $('a').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
     });
+
+    // $("#my_nanogallery2").nanogallery2({
+    //     items: [{
+    //             src: 'berlin1.jpg', // image url
+    //             srct: 'berlin1t.jpg', // thumbnail url
+    //             title: 'Berlin 1', // title
+    //             description: 'this is Berlin' // desceription
+    //         },
+    //         { src: 'berlin2.jpg', srct: 'berlin2t.jpg', title: 'Berlin 2' },
+    //         { src: 'berlin3.jpg', srct: 'berlin3t.jpg', title: 'Berlin 3' }
+    //     ],
+    //     thumbnailWidth: 'auto',
+    //     thumbnailHeight: 100,
+    //     itemsBaseURL: 'https://nanogallery2.nanostudio.org/samples/',
+
+    //     locationHash: false
+    // });
 
 })(jQuery);

@@ -67,65 +67,52 @@
             </div>
         </header>
         <main class="main col">
-            <!-- <div class="contacts">
+            <div class="contacts">
                 <a href="tel:+380967596569">+380 96 759 6569</a>
                 <a href="tel:+380664491767">+380 66 449 1767</a>
-            </div> -->
-            <div style="width: 100%;" ID="ngy2p" data-nanogallery2='{
+            </div>
+            <div class="gallery-wrapper">
+                <div ID="ngy2p" data-nanogallery2='{
                     "itemsBaseURL": "https://ternoprof.herokuapp.com/img/",
                     "thumbnailWidth": "200",
                     "locationHash": "false",
                     "thumbnailHoverEffect2": "imageScaleIn80|imageSepiaOff|labelAppear75",
                     "thumbnailAlignment": "center"
                   }'>
-                <a href="Чистовий етап/20160824_162235.jpg"
+                    <!-- <a href="https://www.youtube.com/watch?v=rkWfSo2WFGE"></a> -->
+                    <a href="Чистовий етап/20160824_162235.jpg"
                     data-ngkind="album"
                     data-ngid="1"
                     data-ngdesc="Description1">Чистовий етап</a>
-                <a href="Чистовий етап/20160803_172243_вулиця Василя Стуса.jpg"
+                    <a href="Чистовий етап/20160803_172243_вулиця Василя Стуса.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20160803_172256_вул. Корольова.jpg"
+                    <a href="Чистовий етап/20160803_172256_вул. Корольова.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-                <a href="Чистовий етап/20160824_162114_Unnamed Road.jpg"
+                    <a href="Чистовий етап/20160824_162114_Unnamed Road.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20160824_162235.jpg"
+                    <a href="Чистовий етап/20160824_162235.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-                <a href="Чистовий етап/20160824_162249.jpg"
+                    <a href="Чистовий етап/20160824_162249.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20160824_214803.jpg"
+                    <a href="Чистовий етап/20160824_214803.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-                <a href="Чистовий етап/20161001_233413.jpg"
+                    <a href="Чистовий етап/20161001_233413.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20170506_212804.jpg"
+                    <a href="Чистовий етап/20170506_212804.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-                <a href="Чистовий етап/20170506_213259.jpg"
+                    <a href="Чистовий етап/20170506_213259.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20170811_184945.jpg"
+                    <a href="Чистовий етап/20170811_184945.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-                <a href="Чистовий етап/20171106_160348.jpg"
+                    <a href="Чистовий етап/20171106_160348.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/20180105_190906.jpg"
+                    <a href="Чистовий етап/20180105_190906.jpg"
                     data-ngalbumid="1">Image 2 / album 1</a>
-                    
-                <a href="Чистовий етап/20180323_171704.jpg"
+                    <a href="Чистовий етап/20180323_171704.jpg"
                     data-ngalbumid="1">Image 1 / album 1</a>
-
-                <a href="Чистовий етап/DSCN9156.JPG"
+                    <a href="Чистовий етап/DSCN9156.JPG"
                     data-ngalbumid="1">Image 2 / album 1</a>
-
-
-                <a href="Електрика на підприємствах/20180313_100403.jpg"
+                    <a href="Електрика на підприємствах/20180313_100403.jpg"
                     data-ngkind="album"
                     data-ngid="2"
                     data-ngdesc="Description1">Електрика на підприємствах</a>
@@ -145,7 +132,6 @@
                     data-ngalbumid="2">Image 1 / album 1</a>
                     <a href="Електрика на підприємствах/швейный цех.jpg"
                     data-ngalbumid="2">Image 1 / album 1</a>
-
                     <a href="Додатково/Копия 20180820_202307.jpg"
                     data-ngkind="album"
                     data-ngid="3"
@@ -154,7 +140,6 @@
                     data-ngalbumid="3">Image 1 / album 1</a>
                     <a href="Додатково/Копия 20180820_202307.jpg"
                     data-ngalbumid="3">Image 1 / album 1</a>
-
                     <a href="Чорновий етап/20150127_131813.jpg"
                     data-ngkind="album"
                     data-ngid="4"
@@ -199,6 +184,7 @@
                     data-ngalbumid="4">Image 1 / album 1</a>
                     <a href="Чорновий етап/IMG_7184.jpg"
                     data-ngalbumid="4">Image 1 / album 1</a>
+                </div>
             </div>
         </main>
         <footer class="footer flex">
@@ -209,9 +195,9 @@
             </div>
             <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
         </footer>
-        <!-- <video autoplay muted loop id="myVideo">
-        <source src="assets/background.mp4" type="video/mp4">
-        </video> -->
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/background.mp4" type="video/mp4">
+        </video>
         <div class="layout">
         </div>
         <div class="layout-second">

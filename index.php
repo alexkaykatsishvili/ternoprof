@@ -24,11 +24,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             if (!preg_match("/^[\+0-9\-\(\)\s]*$/", $phone)) {
                 $phoneErr = "Телефон може складатися лише з цифр"; 
             }
-            if (strlen($phone) < 13) {
-                $phoneErr = "Телефон може складатися не менше ніж з 12 цифр"; 
+            if (strlen($phone) < 19) {
+                $phoneErr = "Телефон може складатися не менше ніж з 19 символів"; 
             }
-            if (strlen($phone) > 13) {
-                $phoneErr = "Телефон може складатися не більш ніж з 12 цифр"; 
+            if (strlen($phone) > 19) {
+                $phoneErr = "Телефон може складатися не більш ніж з 19 символів"; 
             }
         }
 
@@ -123,8 +123,8 @@ function checkInput($data) {
                 <nav class="header__nav">
                     <ul class="flex">
                         <li><a href="./" class="active">Електромонтаж</a></li>
-                        <li><a href="video.php">Відеоспостереження</a></li>
-                        <li><a href="works.php">Наші роботи</a></li>
+                        <li><a href="video/">Відеоспостереження</a></li>
+                        <li><a href="works/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__nav_icon order-1">
@@ -135,8 +135,8 @@ function checkInput($data) {
                 <nav class="header__nav--mobile">
                     <ul class="flex">
                         <li><a href="./" class="active">Електромонтаж</a></li>
-                        <li><a href="video.php">Відеоспостереження</a></li>
-                        <li><a href="works.php">Наші роботи</a></li>
+                        <li><a href="video/">Відеоспостереження</a></li>
+                        <li><a href="works/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -175,7 +175,7 @@ function checkInput($data) {
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Телефон</label>
-                                    <input class="form-control" name="phone" id="phone" type="tel" value="+38" placeholder="+380 96 759 6569" required>
+                                    <input class="form-control" name="phone" id="phone" type="tel" placeholder="+380 96 759 6569" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
                                     <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
                                     <div class="error">
                                         <?php echo $phoneErr;?>
@@ -197,9 +197,9 @@ function checkInput($data) {
                 </div>
                 <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
             </footer>
-            <!-- <video autoplay muted loop id="myVideo">
+            <video autoplay muted loop id="myVideo">
             <source src="assets/background.mp4" type="video/mp4">
-            </video> -->
+            </video>
             <div class="layout">
             </div>
             <div class="layout-second">
@@ -296,6 +296,24 @@ function checkInput($data) {
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
             <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vue-the-mask@0.11.1/dist/vue-the-mask.min.js"></script>
+            <script>
+            Vue.use(VeeValidate);
+            Vue.use(VueTheMask);
+
+            new Vue({
+                el: '#form',
+                data: function() {
+                    return {
+                        model: {
+                            phone: ''
+                        }
+                    }
+                }
+            })
+            </script>
             <script src="js/main.js"></script>
             <script>
             // 2. This code loads the IFrame Player API code asynchronously.
