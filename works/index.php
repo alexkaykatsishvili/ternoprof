@@ -74,116 +74,122 @@
             <div class="gallery-wrapper">
                 <div ID="ngy2p" data-nanogallery2='{
                     "itemsBaseURL": "https://ternoprof.herokuapp.com/img/",
-                    "thumbnailWidth": "200",
+                    "thumbnailWidth": "auto",
+                    "thumbnailHight": "auto",
                     "locationHash": "false",
                     "thumbnailHoverEffect2": "imageScaleIn80|imageSepiaOff|labelAppear75",
-                    "thumbnailAlignment": "center"
+                    "thumbnailAlignment": "center",
+                    "galleryDisplayMode":    "pagination",
+                    "galleryMaxRows":        2,
+                    "galleryPaginationMode": "numbers"
                   }'>
                     <!-- <a href="https://www.youtube.com/watch?v=rkWfSo2WFGE"></a> -->
-                    <a href="Чистовий етап/20160824_162235.jpg"
+                    <a href="Чорновий етап/20150127_131813.jpg"
                     data-ngkind="album"
                     data-ngid="1"
-                    data-ngdesc="Description1">Чистовий етап</a>
-                    <a href="Чистовий етап/20160803_172243_вулиця Василя Стуса.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20160803_172256_вул. Корольова.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20160824_162114_Unnamed Road.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20160824_162235.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20160824_162249.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20160824_214803.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20161001_233413.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20170506_212804.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20170506_213259.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20170811_184945.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20171106_160348.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/20180105_190906.jpg"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Чистовий етап/20180323_171704.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a href="Чистовий етап/DSCN9156.JPG"
-                    data-ngalbumid="1">Image 2 / album 1</a>
-                    <a href="Електрика на підприємствах/20180313_100403.jpg"
-                    data-ngkind="album"
-                    data-ngid="2"
-                    data-ngdesc="Description1">Електрика на підприємствах</a>
-                    <a href="Електрика на підприємствах/20180313_100403.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/20180313_100627.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/20180313_100727.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/20180313_101022.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/видео большой щиток.mp4"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/торговий центр 2.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/торговий центр.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Електрика на підприємствах/швейный цех.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a href="Додатково/Копия 20180820_202307.jpg"
-                    data-ngkind="album"
-                    data-ngid="3"
-                    data-ngdesc="Description1">Додатково</a>
-                    <a href="Додатково/вокруг камер наблюдения.mp4"
-                    data-ngalbumid="3">Image 1 / album 1</a>
-                    <a href="Додатково/Копия 20180820_202307.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
-                    <a href="Чорновий етап/20150127_131813.jpg"
-                    data-ngkind="album"
-                    data-ngid="4"
                     data-ngdesc="Description1">Чорновий етап</a>
                     <a href="Чорновий етап/20150127_131813.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150211_094544.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150211_101009.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150211_101032.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150211_101243.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150213_154430.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150213_154531.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150629_093556.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150629_094611_66-а Садова вул..jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20150629_094953_вул. Костянтина Ареф_єва.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20170602_020259.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20170808_030814.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20180821_111152.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/20180821_111224.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/DSCN4199.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/DSCN8041.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/DSCN8046.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/DSCN8065.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/DSCN9300.jpg"
-                    data-ngalbumid="4">Image 1 / album 1</a>
+                    data-ngalbumid="1">Image 1 / album 1</a>
                     <a href="Чорновий етап/IMG_7184.jpg"
+                    data-ngalbumid="1">Image 1 / album 1</a>
+
+
+                    <a href="Чистовий етап/20160824_162235.jpg"
+                    data-ngkind="album"
+                    data-ngid="2"
+                    data-ngdesc="Description1">Чистовий етап</a>
+                    <a href="Чистовий етап/20160803_172243_вулиця Василя Стуса.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20160803_172256_вул. Корольова.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20160824_162114_Unnamed Road.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20160824_162235.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20160824_162249.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20160824_214803.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20161001_233413.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20170506_212804.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20170506_213259.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20170811_184945.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20171106_160348.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/20180105_190906.jpg"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Чистовий етап/20180323_171704.jpg"
+                    data-ngalbumid="2">Image 1 / album 1</a>
+                    <a href="Чистовий етап/DSCN9156.JPG"
+                    data-ngalbumid="2">Image 2 / album 1</a>
+                    <a href="Електрика на підприємствах/20180313_100403.jpg"
+                    data-ngkind="album"
+                    data-ngid="3"
+                    data-ngdesc="Description1">Електрика на підприємствах</a>
+                    <a href="Електрика на підприємствах/20180313_100403.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/20180313_100627.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/20180313_100727.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/20180313_101022.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/видео большой щиток.mp4"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/торговий центр 2.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/торговий центр.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Електрика на підприємствах/швейный цех.jpg"
+                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a href="Додатково/Копия 20180820_202307.jpg"
+                    data-ngkind="album"
+                    data-ngid="4"
+                    data-ngdesc="Description1">Додатково</a>
+                    <a href="Додатково/вокруг камер наблюдения.mp4"
                     data-ngalbumid="4">Image 1 / album 1</a>
+                    <a href="Додатково/Копия 20180820_202307.jpg"
+                    data-ngalbumid="4">Image 1 / album 1</a>  
                 </div>
             </div>
         </main>

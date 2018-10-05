@@ -104,9 +104,13 @@ function checkInput($data) {
         <a href="tel:+380664491767">+380 66 449 1767</a>
     </div>
     <div class="wrapper-video">
+        <div class="layout">
+    </div>
+    <div class="layout-second">
+    </div>
         <div class="block">
             <a id="myAnchor4"></a>
-            <a href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="next ball"></a>
+            <a class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <header class="header flex">
                 <div class="header__logo">
                     <a href="../" class="flex">
@@ -196,7 +200,7 @@ function checkInput($data) {
         </div>
         <div class="block">
             <a name="myAnchor" id="myAnchor"></a>
-            <a href="#myAnchor2" id="anchor2"><img src="../img/arrow.svg" alt="arrow" class="next ball"></a>
+            <a class="next" href="#myAnchor2" id="anchor2"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <h2>Трансляція на всіх ваших пристроях</h2>
             <main class="main col">
                 <div class="row align-items-center">
@@ -208,18 +212,14 @@ function checkInput($data) {
                             на всі Ваші пристрої, щоб Ви мали доступ
                             до камер незалежно від Вашого
                             місцезнаходження. Потрібен лише інтернет.</p>
-                        <div>
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                        </div>
+                            <div class="icons"></div>
                         </div>
                     </div>
             </main>
         </div>
         <div class="block">
             <a name="myAnchor2" id="myAnchor2"></a>
-            <a href="#myAnchor3" id="anchor3"><img src="../img/arrow.svg" alt="arrow" class="next ball"></a>
+            <a class="next" href="#myAnchor3" id="anchor3"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <h2>працює вночі</h2>
             <main class="main col">
                 <div class="row align-items-center">
@@ -235,7 +235,7 @@ function checkInput($data) {
                 </div>
                 <div class="row align-items-center">
                     <div class="col-12 col-md-7">
-                        <p>Запис можна здійснювати як безперервно, так і тільки при виявленні руху
+                        <p class="text-right">Запис можна здійснювати як безперервно, так і тільки при виявленні руху
                             в кадрі. Наглядач може отримувати спеціальне попередження (візуальне
                             чи акустичне) при виявленні руху. Ми налаштовуємо систему
                             відеоспостереження так, як цього вимагає конкретна задача.</p>
@@ -268,7 +268,7 @@ function checkInput($data) {
                     </div>
                 </div>
             </main>
-            <footer class="footer flex">
+            <footer class="footer flex pad">
                 <div><a href="#" class="conf-pol">Політика конфіденційності</a></div>
                 <div>
                     <p class="text-center">Україна, м. Тернопіль,
@@ -277,14 +277,12 @@ function checkInput($data) {
                 <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
             </footer>
         </div>
+
     </div>
     <video autoplay muted loop id="myVideo">
         <source src="../assets/background.mp4" type="video/mp4">
     </video>
-    <div class="layout">
-    </div>
-    <div class="layout-second">
-    </div>
+    
     <div class="confidence-policy modal-w">
         <h2 class="text-center">Политика конфиденциальности персональных данных</h2>
         <p>Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <b>Ternoprof.com.ua</b>, (далее – Сайт) расположенный на доменном имени ternoprof.com.ua (а также его субдоменах), может получить о Пользователе во время использования сайта <b>ternoprof.com.ua</b> (а также его субдоменов), его программ и его продуктов.</p>
