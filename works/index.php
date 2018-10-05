@@ -196,7 +196,7 @@
             <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
         </footer>
         <video autoplay muted loop id="myVideo">
-            <source src="assets/background.mp4" type="video/mp4">
+            <source src="../assets/background.mp4" type="video/mp4">
         </video>
         <div class="layout">
         </div>
