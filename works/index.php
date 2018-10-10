@@ -204,6 +204,9 @@
         <video autoplay muted loop id="myVideo">
             <source src="../assets/background.mp4" type="video/mp4">
         </video>
+        <div class="preloader">
+            <div class="loader"></div>
+        </div>
         <div class="layout">
         </div>
         <div class="layout-second">

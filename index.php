@@ -56,11 +56,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
             //Send the email
             $send = mail($to, $subject, $message, $headers);
-
         ?>
         <div class="status flex modal-w">
             <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
             <a class="download" href="#" download>Скачати прайс-лист</a>
+            <?php  print "<meta HTTP-EQUIV=Refresh CONTENT=\"; URL=$url\">"; ?>
         </div>
         <div class="status-close"></div>
         <?php
@@ -175,11 +175,12 @@ function checkInput($data) {
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Телефон</label>
-                                    <input class="form-control" name="phone" id="phone" type="tel" placeholder="+380 96 759 6569" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
+                                    <input class="form-control" name="phone" id="phone" type="tel" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
                                     <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
                                     <div class="error">
                                         <?php echo $phoneErr;?>
                                     </div>
+                                    <div id="phone-mask">(096) 759 65 69</div>
                                 </div>
                                 <div class="text-center">
                                     <input type="submit" value="Завантажити" name="form_submit">
@@ -197,9 +198,12 @@ function checkInput($data) {
                 </div>
                 <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
             </footer>
-            <video autoplay muted loop id="myVideo">
+            <!-- <video autoplay muted loop id="myVideo">
             <source src="assets/background.mp4" type="video/mp4">
-            </video>
+            </video> -->
+            <div class="preloader">
+                <div class="loader"></div>
+            </div>
             <div class="layout">
             </div>
             <div class="layout-second">
@@ -308,7 +312,7 @@ function checkInput($data) {
                 data: function() {
                     return {
                         model: {
-                            phone: ''
+                            phone: '+38'
                         }
                     }
                 }

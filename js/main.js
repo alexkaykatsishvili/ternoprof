@@ -1,4 +1,10 @@
 (function($) {
+
+    $(window).on("load", function() {
+
+        $(".preloader").addClass("complete");
+    });
+
     /* Mobile menu's functions */
     $(".header__nav_icon").on("click", function() {
         $("nav.header__nav--mobile").toggleClass("mobile-active");
@@ -64,6 +70,16 @@
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);
         return false;
+    });
+
+    $("#phone").on("focus", function() {
+        $("#phone-mask").css( "display", "none" );        
+    });
+
+    $("#phone").on("focusout", function() {
+        if($("#phone").val().length < 5) {
+            $("#phone-mask").css( "display", "block" ); 
+        }       
     });
 
 })(jQuery);
