@@ -157,119 +157,127 @@ function checkInput($data) {
                     <p><a href="tel:+380664491767">+380 66 449 1767</a></p>
                 </div>
             </header>
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-5 main__slider">
-                    <div><img src="../img/camera-1.png" alt=""></div>
-                    <div><img src="../img/camera-2.png" alt=""></div>
-                    <div><img src="../img/camera-3.png" alt="" style="zoom:.8;"></div>
-                    <div><img src="../img/camera-4.png" alt=""></div>
-                </div>
-                <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
-                    <h1>Монтуємо високоякісний відеонагляд в часному секторі та
+            <div class="cover">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5 main__slider">
+                        <div><img src="../img/camera-1.png" alt=""></div>
+                            <div><img src="../img/camera-2.png" alt=""></div>
+                                <div><img src="../img/camera-3.png" alt="" style="zoom:.8;"></div>
+                                    <div><img src="../img/camera-4.png" alt=""></div>
+                                    </div>
+                                    <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
+                                        <h1>Монтуємо високоякісний відеонагляд в часному секторі та
 на територіях підприємств</h1>
-                    <button class="get-price">отримати прайс-лист</button>
-                    <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
-                        <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
-                            <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
-                                <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
-                                <div class="form-group">
-                                    <label for="name">Ім'я</label>
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Петро" required>
-                                    <div class="invalid-feedback">This field is required.</div>
-                                    <div class="error">
-                                        <?php echo $nameErr;?>
+                                        <button class="get-price">отримати прайс-лист</button>
+                                        <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
+                                        <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
+                                            <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
+                                                <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
+                                                <div class="form-group">
+                                                    <label for="name">Ім'я</label>
+                                                    <input class="form-control" name="name" id="name" type="text" placeholder="Петро" required>
+                                                    <div class="invalid-feedback">This field is required.</div>
+                                                    <div class="error">
+                                                        <?php echo $nameErr;?>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phone">Телефон</label>
+                                                    <input class="form-control" name="phone" id="phone" type="tel" value="+38" placeholder="+380 96 759 6569" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
+                                                    <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
+                                                    <div class="error">
+                                                        <?php echo $phoneErr;?>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <input type="submit" value="Завантажити" name="form_submit">
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="phone">Телефон</label>
-                                    <input class="form-control" name="phone" id="phone" type="tel" value="+38" placeholder="+380 96 759 6569" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
-                                    <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
-                                    <div class="error">
-                                        <?php echo $phoneErr;?>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <input type="submit" value="Завантажити" name="form_submit">
-                                </div>
-                            </form>
+                            </div>
                         </div>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <a name="myAnchor" id="myAnchor"></a>
-            <a class="next" href="#myAnchor2" id="anchor2"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
-            <h2>Трансляція на всіх ваших пристроях</h2>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="monitors"></div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>Встановлюємо програмне забезпечення
-                        на всі Ваші пристрої, щоб Ви мали доступ
-                        до камер незалежно від Вашого
-                        місцезнаходження. Потрібен лише інтернет.</p>
-                    <div class="icons"></div>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <a name="myAnchor2" id="myAnchor2"></a>
-            <a class="next" href="#myAnchor3" id="anchor3"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
-            <h2>працює вночі</h2>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-5">
-                    <div class="night-cam"></div>
-                </div>
-                <div class="col-12 col-md-7">
-                    <p>На відміну від яскравої картинки, на вулиці абсолютна темінь.
-                        Таке зображення з камери можливо завдяки інфрочервоній
-                        підсвідці. Камери мають підсвітку різної дальності, а також багато інших
-                        параметрів, тому кожну камеру ми підбираємо індивідуально під Ваші потреби.</p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-7 order-3 order-md-0 night-mode">
-                    <p>Запис можна здійснювати як безперервно, так і тільки при виявленні руху
-                        в кадрі. Наглядач може отримувати спеціальне попередження (візуальне
-                        чи акустичне) при виявленні руху. Ми налаштовуємо систему
-                        відеоспостереження так, як цього вимагає конкретна задача.</p>
-                </div>
-                <div class="col-12 col-md-5 ">
-                    <div class="night-cam night-cam-2"></div>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <a name="myAnchor3" id="myAnchor3"></a>
-            <a href="#myAnchor4" id="anchor4" class="top"><img src="../img/arrow-top.svg" alt="arrow"></a>
-            <h2>оперативний монтаж і гарантія якості</h2>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="master"></div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>Звичайну систему на 5 камер ми монтуємо до 3х днів.
-                        На всю виконану роботу ми забезпечуємо гарантію
-                        протягом 1 року.
-                    </p>
-                    <p>
-                        Ознайомтесь зі всіма варіантами систем відеонагляду
-                        та їх цінами в нашому прайс-листі!
-                    </p>
-                    <button class="get-price">отримати прайс-лист</button>
-                </div>
-            </div>
-            <footer class="footer flex pad">
-                <div><a href="#" class="conf-pol">Політика конфіденційності</a></div>
-                <div>
-                    <p class="text-center">Україна, м. Тернопіль,
-                        <br>вул. Броварна, 2</p>
-                </div>
-                <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
-            </footer>
-        </div>
-    </div>
+                        <div class="block">
+                            <a name="myAnchor" id="myAnchor"></a>
+                            <a class="next" href="#myAnchor2" id="anchor2"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
+                            <h2>Трансляція на всіх ваших пристроях</h2>
+                            <div class="cover">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <div class="monitors"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <p>Встановлюємо програмне забезпечення
+                                            на всі Ваші пристрої, щоб Ви мали доступ
+                                            до камер незалежно від Вашого
+                                            місцезнаходження. Потрібен лише інтернет.</p>
+                                        <div class="icons"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a name="myAnchor2" id="myAnchor2"></a>
+                            <a class="next" href="#myAnchor3" id="anchor3"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
+                            <h2>працює вночі</h2>
+                            <div class="cover">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-5">
+                                        <div class="night-cam"></div>
+                                    </div>
+                                    <div class="col-12 col-md-7">
+                                        <p>На відміну від яскравої картинки, на вулиці абсолютна темінь.
+                                            Таке зображення з камери можливо завдяки інфрочервоній
+                                            підсвідці. Камери мають підсвітку різної дальності, а також багато інших
+                                            параметрів, тому кожну камеру ми підбираємо індивідуально під Ваші потреби.</p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-7 order-3 order-md-0 night-mode">
+                                        <p>Запис можна здійснювати як безперервно, так і тільки при виявленні руху
+                                            в кадрі. Наглядач може отримувати спеціальне попередження (візуальне
+                                            чи акустичне) при виявленні руху. Ми налаштовуємо систему
+                                            відеоспостереження так, як цього вимагає конкретна задача.</p>
+                                    </div>
+                                    <div class="col-12 col-md-5 ">
+                                        <div class="night-cam night-cam-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a name="myAnchor3" id="myAnchor3"></a>
+                            <a href="#myAnchor4" id="anchor4" class="top"><img src="../img/arrow-top.svg" alt="arrow"></a>
+                            <h2>оперативний монтаж і гарантія якості</h2>
+                            <div class="cover">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <div class="master"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <p>Звичайну систему на 5 камер ми монтуємо до 3х днів.
+                                            На всю виконану роботу ми забезпечуємо гарантію
+                                            протягом 1 року.
+                                        </p>
+                                        <p>
+                                            Ознайомтесь зі всіма варіантами систем відеонагляду
+                                            та їх цінами в нашому прайс-листі!
+                                        </p>
+                                        <button class="get-price">отримати прайс-лист</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="footer flex pad">
+                                <div><a href="#" class="conf-pol">Політика конфіденційності</a></div>
+                                <div>
+                                    <p class="text-center">Україна, м. Тернопіль,
+                                        <br>вул. Броварна, 2</p>
+                                </div>
+                                <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
+                            </footer>
+                        </div>
+                    </div>
                     <!-- <video autoplay muted loop id="myVideo">
         <source src="../assets/background.mp4" type="video/mp4">
     </video> -->

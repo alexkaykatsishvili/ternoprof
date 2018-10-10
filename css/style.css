@@ -376,7 +376,8 @@ ul li {
         position: absolute;
         bottom: 110px;
         left: 92px;
-        color: #dedede; }
+        color: #dedede;
+        pointer-events: none; }
       .main__content_form .form input[type="submit"] {
         font-family: BebasNeue, Helvetica, Arial, sans-serif; }
   .main__slider {
@@ -682,5 +683,10 @@ ul li {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

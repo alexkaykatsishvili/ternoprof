@@ -529,10 +529,11 @@ ul {
             }
 
             #phone-mask {
-               position: absolute;
+                position: absolute;
                 bottom: 110px;
                 left: 92px;
                 color: #dedede;
+                pointer-events: none;
             }
 
             input[type="submit"] {
@@ -1049,4 +1050,11 @@ ul {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
