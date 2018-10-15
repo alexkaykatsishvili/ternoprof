@@ -550,6 +550,7 @@ ul {
         img {
             margin: 0 auto;
             max-width: 100%;
+            height: 220px;
         }
     }
 }
@@ -898,14 +899,17 @@ ul {
                 font-size: 30px;
             }
         }
+
+        &__slider {
+            img {
+                height: 150px;
+            }
+        }
     }
 
     .footer {
         font-size: 13px;
     }
-
-
-
 }
 
 @media (max-width: 500px) {

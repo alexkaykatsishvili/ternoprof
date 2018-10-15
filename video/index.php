@@ -162,7 +162,7 @@ function checkInput($data) {
                     <div class="col-12 col-lg-5 main__slider">
                         <div><img src="../img/camera-1.png" alt=""></div>
                             <div><img src="../img/camera-2.png" alt=""></div>
-                                <div><img src="../img/camera-3.png" alt="" style="zoom:.8;"></div>
+                                <div><img src="../img/camera-3.png" alt=""></div>
                                     <div><img src="../img/camera-4.png" alt=""></div>
                                     </div>
                                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
