@@ -64,7 +64,7 @@
             <div class="header__contacts">
                 <p><a href="tel:+380967596569">+380 96 759 6569</a></p>
                 <p><a href="tel:+380664491767">+380 66 449 1767</a></p>
-            </div>data-ngthumb="img_01t.jpg" 
+            </div>
         </header>
         <main class="main col">
             <div class="contacts">
@@ -77,118 +77,114 @@
                     "thumbnailWidth": "auto",
                     "thumbnailHight": "auto",
                     "locationHash": "false",
-                    "thumbnailHoverEffect2": "imageScaleIn80|imageSepiaOff|labelAppear75",
+                    "thumbnailHoverEffect2": "toolsAppear|labelOpacity50|imageScaleIn80",
                     "thumbnailAlignment": "center",
                     "galleryDisplayMode":    "pagination",
                     "galleryMaxRows":        2,
-                    "galleryPaginationMode": "numbers"
+                    "galleryPaginationMode": "rectangles"
                   }'>
-                    <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.jpg" href="Чорновий етап/Збірка електрощита 01.jpg"
+                    <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.JPG" href="Чорновий етап/Збірка електрощита 01.JPG"
                     data-ngkind="album"
-                    data-ngid="1"
-                    data-ngdesc="Description1">Чорновий етап</a>
-                    <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.jpg" href="Чорновий етап/Збірка електрощита 01.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngid="1">Чорновий етап</a>
+                    <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.JPG" href="Чорновий етап/Збірка електрощита 01.JPG"
+                    data-ngalbumid="1">Збірка електрощита</a>
                     <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 02.jpg" href="Чорновий етап/Збірка електрощита 02.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Збірка електрощита</a>
                     <a data-ngthumb="Чорновий етап/tn_Збірка електрощита квартира БАМ 01.jpg" href="Чорновий етап/Збірка електрощита квартира БАМ 01.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Збірка електрощита квартира БАМ</a>
                     <a data-ngthumb="Чорновий етап/tn_Збірка електрощита квартира БАМ 02.jpg" href="Чорновий етап/Збірка електрощита квартира БАМ 02.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Збірка електрощита квартира БАМ</a>
                     <a data-ngthumb="Чорновий етап/tn_Монтаж теплої підлоги.jpg" href="Чорновий етап/Монтаж теплої підлоги.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (1).jpg" href="Чорновий етап/Чорнова електрика (1).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (2).jpg" href="Чорновий етап/Чорнова електрика (2).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (3).jpg" href="Чорновий етап/Чорнова електрика (3).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика 2 (1).jpg" href="Чорновий етап/Чорнова електрика 2 (1).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
-                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика 2 (2).jpg" href="Чорновий етап/Чорнова електрика 2 (2).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Монтаж теплої підлоги</a>
+                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (1).JPG" href="Чорновий етап/Чорнова електрика (1).JPG"
+                    data-ngalbumid="1">Чорнова електрика</a>
+                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (2).JPG" href="Чорновий етап/Чорнова електрика (2).JPG"
+                    data-ngalbumid="1">Чорнова електрика</a>
+                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика (3).JPG" href="Чорновий етап/Чорнова електрика (3).JPG"
+                    data-ngalbumid="1">Чорнова електрика</a>
+                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика 2 (1).JPG" href="Чорновий етап/Чорнова електрика 2 (1).JPG"
+                    data-ngalbumid="1">Чорнова електрика</a>
+                    <a data-ngthumb="Чорновий етап/tn_Чорнова електрика 2 (2).JPG" href="Чорновий етап/Чорнова електрика 2 (2).JPG"
+                    data-ngalbumid="1">Чорнова електрика</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_01.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_01.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_02.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_02.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_03.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_03.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_04.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_04.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_05.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_05.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_06.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_06.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика в квартирі</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика в квартирі 1_07.jpg" href="Чорновий етап/Чорнова електрика в квартирі 1_07.jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика Садова вул</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика Садова вул (1).jpg" href="Чорновий етап/Чорнова електрика Садова вул (1).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика Садова вул</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика Садова вул (2).jpg" href="Чорновий етап/Чорнова електрика Садова вул (2).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика Садова вул</a>
                     <a data-ngthumb="Чорновий етап/tn_Чорнова електрика Садова вул (3).jpg" href="Чорновий етап/Чорнова електрика Садова вул (3).jpg"
-                    data-ngalbumid="1">Image 1 / album 1</a>
+                    data-ngalbumid="1">Чорнова електрика Садова вул</a>
 
 
-                    <a data-ngthumb="Чистовий етап/tn_Електрощит.jpg" href="Чистовий етап/Електрощит.jpg"
+                    <a data-ngthumb="Чистовий етап/tn_Електрощит.JPG" href="Чистовий етап/Електрощит.JPG"
                     data-ngkind="album"
-                    data-ngid="2"
-                    data-ngdesc="Description1">Чистовий етап</a>
-                    <a data-ngthumb="Чистовий етап/tn_Електрощит.jpg" href="Чистовий етап/Електрощит.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngid="2">Чистовий етап</a>
+                    <a data-ngthumb="Чистовий етап/tn_Електрощит.JPG" href="Чистовий етап/Електрощит.JPG"
+                    data-ngalbumid="2">Електрощит</a>
                     <a data-ngthumb="Чистовий етап/tn_Зразкова збірка електрощита.jpg" href="Чистовий етап/Зразкова збірка електрощита.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Зразкова збірка електрощита</a>
                     <a data-ngthumb="Чистовий етап/tn_Лед-підсвітка в квартирі 01.jpg" href="Чистовий етап/Лед-підсвітка в квартирі 01.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngalbumid="2">Лед-підсвітка в квартирі</a>
                     <a data-ngthumb="Чистовий етап/tn_Лед-підсвітка в квартирі 02.jpg" href="Чистовий етап/Лед-підсвітка в квартирі 02.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Лед-підсвітка в квартирі</a>
                     <a data-ngthumb="Чистовий етап/tn_Підсвітка будинку 02.jpg" href="Чистовий етап/Підсвітка будинку 02.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngalbumid="2">Підсвітка будинку</a>
                     <a data-ngthumb="Чистовий етап/tn_Підсвітка будинку.jpg" href="Чистовий етап/Підсвітка будинку.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Підсвітка будинку</a>
                     <a data-ngthumb="Чистовий етап/tn_Підсвітка в кухні.jpg" href="Чистовий етап/Підсвітка в кухні.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngalbumid="2">Підсвітка в кухні</a>
                     <a data-ngthumb="Чистовий етап/tn_Підсвітка тротуару.jpg" href="Чистовий етап/Підсвітка тротуару.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Підсвітка тротуару</a>
                     <a data-ngthumb="Чистовий етап/tn_Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів.jpg" href="Чистовий етап/Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngalbumid="2" data-ngdesc="Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів">Серверна кімната</a>
                     <a data-ngthumb="Чистовий етап/tn_Супутникове ТБ 01.jpg" href="Чистовий етап/Супутникове ТБ 01.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Супутникове ТБ</a>
                     <a data-ngthumb="Чистовий етап/tn_Супутникове ТБ 02.jpg" href="Чистовий етап/Супутникове ТБ 02.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
+                    data-ngalbumid="2">Супутникове ТБ</a>
                     <a data-ngthumb="Чистовий етап/tn_Щит в дерев_янному будинку 02.jpg" href="Чистовий етап/Щит в дерев_янному будинку 02.jpg"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Щит в дерев'янному будинку</a>
                     <a data-ngthumb="Чистовий етап/tn_Щит в дерев_янному будинку.jpg" href="Чистовий етап/Щит в дерев_янному будинку.jpg"
-                    data-ngalbumid="2">Image 1 / album 1</a>
-                    <a data-ngthumb="Чистовий етап/tn_Щиток на 60 модулів.JPG" href="Чистовий етап/tn_Щиток на 60 модулів.JPG"
-                    data-ngalbumid="2">Image 2 / album 1</a>
+                    data-ngalbumid="2">Щит в дерев'янному будинку</a>
+                    <a data-ngthumb="Чистовий етап/tn_Щиток на 60 модулів.jpg" href="Чистовий етап/Щиток на 60 модулів.jpg"
+                    data-ngalbumid="2">Щиток на 60 модулів</a>
 
                     <a data-ngthumb="Електрика на підприємствах/tn_Електрощит на підприємстві.jpg" href="Електрика на підприємствах/Електрощит на підприємстві.jpg"
                     data-ngkind="album"
-                    data-ngid="3"
-                    data-ngdesc="Description1">Електрика на підприємствах</a>
-                    <a data-ngthumb="https://www.youtube.com/watch?v=3Gd4mP8UgPA" href="https://www.youtube.com/watch?v=3Gd4mP8UgPA"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngid="3">Електрика на підприємствах</a>
+                    <a href="https://www.youtube.com/watch?v=3Gd4mP8UgPA"
+                    data-ngalbumid="3">Потужний щит</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Електрощит на підприємстві.jpg" href="Електрика на підприємствах/Електрощит на підприємстві.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngalbumid="3">Електрощит на підприємстві</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Збірка потужного щита.jpg" href="Електрика на підприємствах/Збірка потужного щита.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngalbumid="3">Збірка потужного щита</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Збірка потужного щита 2.jpg" href="Електрика на підприємствах/Збірка потужного щита 2.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngalbumid="3">Збірка потужного щита</a>
                     
-                    <a data-ngthumb="Електрика на підприємствах/tn_Освітлення в ангарі" href="Електрика на підприємствах/Освітлення в ангарі.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
-                    <a data-ngthumb="tn_Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg" href="Електрика на підприємствах/Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    <a data-ngthumb="Електрика на підприємствах/tn_Освітлення в ангарі.jpg" href="Електрика на підприємствах/Освітлення в ангарі.jpg"
+                    data-ngalbumid="3">Освітлення в ангарі</a>
+                    <a data-ngthumb="Електрика на підприємствах/tn_Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg" href="Електрика на підприємствах/Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg"
+                    data-ngalbumid="3" data-ngdesc="Освітлення торгового центру на Збаразькому кільці, Тернопіль">Освітлення торгового центру</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення торгового центру на Збаразькому кільці, Тернопіль 02.jpg" href="Електрика на підприємствах/Освітлення торгового центру на Збаразькому кільці, Тернопіль 02.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngalbumid="3" data-ngdesc="Освітлення торгового центру на Збаразькому кільці, Тернопіль">Освітлення торгового центру</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення швейного цеху в Бучачі.jpg" href="Електрика на підприємствах/Освітлення швейного цеху в Бучачі.jpg"
-                    data-ngalbumid="3">Image 1 / album 1</a>
+                    data-ngalbumid="3" data-ngdesc="Освітлення швейного цеху в Бучачі">Освітлення швейного цеху</a>
                     
                     <a data-ngthumb="https://www.youtube.com/watch?v=B8cweSx-u6M" href="https://www.youtube.com/watch?v=B8cweSx-u6M"
                     data-ngkind="album"
-                    data-ngid="4"
-                    data-ngdesc="Description1">Додатково</a>
-                    <a data-ngthumb="img_01t.jpg" href="https://www.youtube.com/watch?v=B8cweSx-u6M" data-ngalbumid="4">Image 1 / album 1</a> 
+                    data-ngid="4">Додатково</a>
+                    <a href="https://www.youtube.com/watch?v=B8cweSx-u6M" data-ngalbumid="4">Камери спостереження Hikvison</a> 
                 </div>
             </div>
         </main>
