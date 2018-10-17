@@ -447,11 +447,113 @@ ul li {
   to {
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0); } }
+.master {
+  max-width: 100%;
+  height: 345px;
+  background: url(../img/master.png) no-repeat 50%;
+  background-size: contain; }
+
+.monitors {
+  max-width: 100%;
+  height: 479px;
+  background: url(../img/monitors.png) no-repeat 50%;
+  background-size: contain; }
+
+.night-cam,
+.night-cam-2 {
+  max-width: 100%;
+  height: 230px;
+  background: url(../img/night-cam.png) no-repeat 50%;
+  background-size: contain; }
+
+.night-cam-2 {
+  background: url(../img/night-cam-2.png) no-repeat 50%;
+  background-size: contain; }
+
+.gallery-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%; }
+  .gallery-wrapper div#ngy2p {
+    width: 100%; }
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  z-index: 2000; }
+  .preloader:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #000;
+    transition: 1s; }
+  .preloader.complete:before {
+    left: -50%; }
+  .preloader:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #000;
+    transition: 1s; }
+  .preloader.complete:after {
+    right: -50%; }
+  .preloader .loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid rgba(109, 178, 255, 0.7);
+    /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2000; }
+  .preloader.complete {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; }
+    .preloader.complete .loader {
+      display: none; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
+
+.nGY2 .nGY2GThumbnailAlbumTitle,
+.nGY2 .nGY2GThumbnailImageTitle {
+  font-family: Myriad, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-transform: none; }
+
 @media (min-width: 992px) {
   .main__content-left {
     padding-left: 10%; }
     .main__content-left .show-more {
-      max-width: 380px; } }
+      max-width: 380px; }
+
+  .night-cam,
+  .night-cam-2 {
+    height: 300px; } }
 @media (max-width: 1368px) {
   h1 {
     font-size: 50px; }
@@ -600,96 +702,5 @@ ul li {
       margin: 1px auto; }
       .footer div:last-child {
         order: -1; } }
-.master {
-  max-width: 100%;
-  height: 345px;
-  background: url(../img/master.png) no-repeat 50%;
-  background-size: contain; }
-
-.monitors {
-  max-width: 100%;
-  height: 479px;
-  background: url(../img/monitors.png) no-repeat 50%;
-  background-size: contain; }
-
-.night-cam,
-.night-cam-2 {
-  max-width: 100%;
-  height: 230px;
-  background: url(../img/night-cam.png) no-repeat 50%;
-  background-size: contain; }
-
-.night-cam-2 {
-  background: url(../img/night-cam-2.png) no-repeat 50%;
-  background-size: contain; }
-
-.gallery-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 100%; }
-  .gallery-wrapper div#ngy2p {
-    width: 100%; }
-
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: 1s;
-  z-index: 2000; }
-  .preloader:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #000;
-    transition: 1s; }
-  .preloader.complete:before {
-    left: -50%; }
-  .preloader:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: #000;
-    transition: 1s; }
-  .preloader.complete:after {
-    right: -50%; }
-  .preloader .loader {
-    border: 16px solid #f3f3f3;
-    /* Light grey */
-    border-top: 16px solid rgba(109, 178, 255, 0.7);
-    /* Blue */
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 2000; }
-  .preloader.complete {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none; }
-    .preloader.complete .loader {
-      display: none; }
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-.cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,44 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420702-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127420702-1');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter50722189 = new Ya.Metrika2({
+                        id:50722189,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/50722189" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
@@ -81,7 +119,7 @@
                     "thumbnailAlignment": "center",
                     "galleryDisplayMode":    "pagination",
                     "galleryMaxRows":        2,
-                    "galleryPaginationMode": "rectangles"
+                    "galleryPaginationMode": "dots"
                   }'>
                     <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.JPG" href="Чорновий етап/Збірка електрощита 01.JPG"
                     data-ngkind="album"
@@ -148,7 +186,7 @@
                     <a data-ngthumb="Чистовий етап/tn_Підсвітка тротуару.jpg" href="Чистовий етап/Підсвітка тротуару.jpg"
                     data-ngalbumid="2">Підсвітка тротуару</a>
                     <a data-ngthumb="Чистовий етап/tn_Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів.jpg" href="Чистовий етап/Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів.jpg"
-                    data-ngalbumid="2" data-ngdesc="Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів">Серверна кімната</a>
+                    data-ngalbumid="2">Серверна кімната - відеоспостереження, вай-фай роутер, блоки живл ледів</a>
                     <a data-ngthumb="Чистовий етап/tn_Супутникове ТБ 01.jpg" href="Чистовий етап/Супутникове ТБ 01.jpg"
                     data-ngalbumid="2">Супутникове ТБ</a>
                     <a data-ngthumb="Чистовий етап/tn_Супутникове ТБ 02.jpg" href="Чистовий етап/Супутникове ТБ 02.jpg"
@@ -175,16 +213,18 @@
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення в ангарі.jpg" href="Електрика на підприємствах/Освітлення в ангарі.jpg"
                     data-ngalbumid="3">Освітлення в ангарі</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg" href="Електрика на підприємствах/Освітлення торгового центру на Збаразькому кільці, Тернопіль.jpg"
-                    data-ngalbumid="3" data-ngdesc="Освітлення торгового центру на Збаразькому кільці, Тернопіль">Освітлення торгового центру</a>
+                    data-ngalbumid="3">Освітлення торгового центру на Збаразькому кільці, Тернопіль</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення торгового центру на Збаразькому кільці, Тернопіль 02.jpg" href="Електрика на підприємствах/Освітлення торгового центру на Збаразькому кільці, Тернопіль 02.jpg"
-                    data-ngalbumid="3" data-ngdesc="Освітлення торгового центру на Збаразькому кільці, Тернопіль">Освітлення торгового центру</a>
+                    data-ngalbumid="3">Освітлення торгового центру на Збаразькому кільці, Тернопіль</a>
                     <a data-ngthumb="Електрика на підприємствах/tn_Освітлення швейного цеху в Бучачі.jpg" href="Електрика на підприємствах/Освітлення швейного цеху в Бучачі.jpg"
-                    data-ngalbumid="3" data-ngdesc="Освітлення швейного цеху в Бучачі">Освітлення швейного цеху</a>
+                    data-ngalbumid="3">Освітлення швейного цеху в Бучачі</a>
                     
                     <a data-ngthumb="https://www.youtube.com/watch?v=B8cweSx-u6M" href="https://www.youtube.com/watch?v=B8cweSx-u6M"
                     data-ngkind="album"
                     data-ngid="4">Додатково</a>
-                    <a href="https://www.youtube.com/watch?v=B8cweSx-u6M" data-ngalbumid="4">Камери спостереження Hikvison</a> 
+                    <a href="https://www.youtube.com/watch?v=B8cweSx-u6M" data-ngalbumid="4">Камери спостереження Hikvison</a>
+                    <a data-ngthumb="Додатково/tn_Беспровідна сигналізація AJAX.jpg" href="Додатково/Беспровідна сигналізація AJAX.jpg"
+                    data-ngalbumid="4">Беспровідна сигналізація AJAX</a> 
                 </div>
             </div>
         </main>
