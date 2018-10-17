@@ -236,9 +236,9 @@ function checkInput($data) {
                 </div>
                 <div><a href="mailto:ternoprof@gmail.com">ternoprof@gmail.com</a></div>
             </footer>
-            <!-- <video autoplay muted loop id="myVideo">
+            <video autoplay muted loop id="myVideo">
             <source src="assets/background.mp4" type="video/mp4">
-            </video> -->
+            </video>
             <div class="preloader">
                 <div class="loader"></div>
             </div>

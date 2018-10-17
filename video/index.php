@@ -324,9 +324,9 @@ function checkInput($data) {
                             </footer>
                         </div>
                     </div>
-                    <!-- <video autoplay muted loop id="myVideo">
-        <source src="../assets/background.mp4" type="video/mp4">
-    </video> -->
+                    <video autoplay muted loop id="myVideo">
+                        <source src="../assets/background.mp4" type="video/mp4">
+                    </video>
                     <div class="preloader">
                         <div class="loader"></div>
                     </div>
