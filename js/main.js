@@ -82,4 +82,13 @@
         }       
     });
 
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 500) {
+            $('.top').show();
+        }else{
+            $('.top').hide();
+        }
+    });
+
 })(jQuery);

@@ -198,10 +198,10 @@ function checkInput($data) {
             <div class="cover">
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-5 main__slider">
-                        <div><img src="../img/camera-1.png" alt=""></div>
-                            <div><img src="../img/camera-2.png" alt=""></div>
-                                <div><img src="../img/camera-3.png" alt=""></div>
-                                    <div><img src="../img/camera-4.png" alt=""></div>
+                        <div><img src="../img/camera-1.png" alt="видеокамера"></div>
+                            <div><img src="../img/camera-2.png" alt="видеокамера"></div>
+                                <div><img src="../img/camera-3.png" alt="видеокамера"></div>
+                                    <div><img src="../img/camera-4.png" alt="видеокамера"></div>
                                     </div>
                                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
                                         <h1>Монтуємо високоякісний відеонагляд в часному секторі та
@@ -213,7 +213,7 @@ function checkInput($data) {
                                                 <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
                                                 <div class="form-group">
                                                     <label for="name">Ім'я</label>
-                                                    <input class="form-control" name="name" id="name" type="text" placeholder="Петро" required>
+                                                    <input class="form-control" name="name" id="name" type="text" placeholder="Іван" required>
                                                     <div class="invalid-feedback">This field is required.</div>
                                                     <div class="error">
                                                         <?php echo $nameErr;?>
@@ -221,11 +221,12 @@ function checkInput($data) {
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="phone">Телефон</label>
-                                                    <input class="form-control" name="phone" id="phone" type="tel" value="+38" placeholder="+380 96 759 6569" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
+                                                    <input class="form-control" name="phone" id="phone" type="tel" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
                                                     <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
                                                     <div class="error">
                                                         <?php echo $phoneErr;?>
                                                     </div>
+                                                    <div id="phone-mask">(096) 759 65 69</div>
                                                 </div>
                                                 <div class="text-center">
                                                     <input type="submit" value="Завантажити" name="form_submit">
@@ -261,10 +262,10 @@ function checkInput($data) {
                             <h2>працює вночі</h2>
                             <div class="cover">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-5">
+                                    <div class="col-12 col-md-4">
                                         <div class="night-cam"></div>
                                     </div>
-                                    <div class="col-12 col-md-7">
+                                    <div class="col-12 col-md-8">
                                         <p>На відміну від яскравої картинки, на вулиці абсолютна темінь.
                                             Таке зображення з камери можливо завдяки інфрочервоній
                                             підсвідці. Камери мають підсвітку різної дальності, а також багато інших
@@ -272,13 +273,13 @@ function checkInput($data) {
                                     </div>
                                 </div>
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-7 order-3 order-md-0 night-mode">
+                                    <div class="col-12 col-md-8 order-3 order-md-0 night-mode">
                                         <p>Запис можна здійснювати як безперервно, так і тільки при виявленні руху
                                             в кадрі. Наглядач може отримувати спеціальне попередження (візуальне
                                             чи акустичне) при виявленні руху. Ми налаштовуємо систему
                                             відеоспостереження так, як цього вимагає конкретна задача.</p>
                                     </div>
-                                    <div class="col-12 col-md-5 ">
+                                    <div class="col-12 col-md-4">
                                         <div class="night-cam night-cam-2"></div>
                                     </div>
                                 </div>
@@ -286,7 +287,14 @@ function checkInput($data) {
                         </div>
                         <div class="block">
                             <a name="myAnchor3" id="myAnchor3"></a>
-                            <a href="#myAnchor4" id="anchor4" class="top"><img src="../img/arrow-top.svg" alt="arrow"></a>
+                            <!-- <a href="#myAnchor4" id="anchor4" class="top"><img src="../img/top.svg" alt="arrow"></a> -->
+                            <a href="#myAnchor4" id="anchor4" class="top">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="84px" height="84px" viewBox="0 0 84 84">
+                                <g><circle cx="42.00" cy="42.00" r="42.00" fill="rgb(255,255,255)" opacity="0.26"/><path fillRule="evenodd" d="M 63.89 48.35C 63.89 48.35 43.89 25.36 43.89 25.36 43.41 24.81 42.72 24.5 42 24.5 41.28 24.5 40.59 24.81 40.12 25.36 40.12 25.36 20.11 48.35 20.11 48.35 19.2 49.39 19.31 50.97 20.35 51.88 21.4 52.79 22.97 52.68 23.88 51.64 23.88 51.64 42 30.81 42 30.81 42 30.81 60.12 51.63 60.12 51.63 61.03 52.68 62.61 52.79 63.65 51.88 64.69 50.97 64.8 49.39 63.89 48.35 63.89 48.35 63.89 48.35 63.89 48.35Z" fill="rgb(255,255,255)"/></g></svg>
+                            </a>
                             <h2>оперативний монтаж і гарантія якості</h2>
                             <div class="cover">
                                 <div class="row align-items-center">
@@ -426,7 +434,7 @@ function checkInput($data) {
                         data: function() {
                             return {
                                 model: {
-                                    phone: ''
+                                    phone: '+38'
                                 }
                             }
                         }

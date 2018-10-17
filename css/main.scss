@@ -597,15 +597,19 @@ ul {
 
 .top {
     position: fixed;
-    // display: none;
+    display: none;
     bottom: 20px;
     right: 20px;
     width: 80px;
     z-index: 2000;
-
-    img {
+    svg {
         width: 60px;
     }
+}
+
+.cntr {
+    align-items: center;
+    justify-content: center;
 }
 
 .ball {
@@ -766,11 +770,13 @@ ul {
 }
 
 .nGY2 .nGY2GThumbnailAlbumTitle,
-.nGY2 .nGY2GThumbnailImageTitle {
+.nGY2 .nGY2GThumbnailImageTitle,
+.nGY2 .toolbar .ngbt {
     font-family: Myriad, Helvetica, Arial, sans-serif;
     font-size: 18px;
     text-transform: none;
 }
+
 @media (min-width: 992px) {
     .main {
         &__content-left {
@@ -985,7 +991,7 @@ ul {
         .top {
             right: -20px;
 
-            img {
+            svg {
                 width: 40px;
             }
         }

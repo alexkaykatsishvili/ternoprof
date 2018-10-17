@@ -205,7 +205,7 @@ function checkInput($data) {
                                 <p class="proposition">Заповніть форму та завантажте прайс-лист!</p>
                                 <div class="form-group">
                                     <label for="name">Ім'я</label>
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Петро" required>
+                                    <input class="form-control" name="name" id="name" type="text" placeholder="Іван" required>
                                     <div class="invalid-feedback">This field is required.</div>
                                     <div class="error">
                                         <?php echo $nameErr;?>

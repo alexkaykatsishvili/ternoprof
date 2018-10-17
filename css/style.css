@@ -417,12 +417,17 @@ ul li {
 
 .top {
   position: fixed;
+  display: none;
   bottom: 20px;
   right: 20px;
   width: 80px;
   z-index: 2000; }
-  .top img {
+  .top svg {
     width: 60px; }
+
+.cntr {
+  align-items: center;
+  justify-content: center; }
 
 .ball {
   animation: bounce 0.5s;
@@ -540,7 +545,8 @@ ul li {
   height: 100%; }
 
 .nGY2 .nGY2GThumbnailAlbumTitle,
-.nGY2 .nGY2GThumbnailImageTitle {
+.nGY2 .nGY2GThumbnailImageTitle,
+.nGY2 .toolbar .ngbt {
   font-family: Myriad, Helvetica, Arial, sans-serif;
   font-size: 18px;
   text-transform: none; }
@@ -660,7 +666,7 @@ ul li {
       height: 56px; }
   .wrapper-video .top {
     right: -20px; }
-    .wrapper-video .top img {
+    .wrapper-video .top svg {
       width: 40px; } }
 @media (max-width: 576px) {
   #myVideo {
