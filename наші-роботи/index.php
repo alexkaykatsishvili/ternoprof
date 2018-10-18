@@ -44,9 +44,11 @@
     <meta charset="utf-8">
     <link rel="canonical" href="https://ternoprof.herokuapp.com/наші-роботи/" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
+    <meta property="og:title" content="Фото наших робіт. Фірма Тернопроф" />
+    <meta property="og:site_name" content="Ternoprof">
+    <meta property="og:url" content="https://ternoprof.herokuapp.com/наші-роботи/">
     <meta property="og:type" content="article" />
-<!--     <meta property="og:url" content="http://www.websiteaddress.com/article/" /> -->
+    <meta property="og:description" content="Ознайомтесь з нашими минулими об’єктами  по електромонтажу, відеоспостереженню, освітленню; чистовій і чорновій електриці. Дивіться фото + відео.">
     <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">

@@ -129,8 +129,10 @@ function checkInput($data) {
         <link rel="canonical" href="https://ternoprof.herokuapp.com" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
         <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
+        <meta property="og:site_name" content="Ternoprof">
+        <meta property="og:url" content="https://ternoprof.herokuapp.com">
         <meta property="og:type" content="article" />
-    <!--     <meta property="og:url" content="http://www.websiteaddress.com/article/" /> -->
+        <meta property="og:description" content="Якісні послуги електриків в Тернополі і області. Дивіться 4-хвилинне відео і дізнайтеся все про ідеальну електрику в будинку!">
         <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
