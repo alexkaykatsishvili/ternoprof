@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,19 +42,24 @@
     <!-- /Yandex.Metrika counter -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="canonical" href="https://ternoprof.herokuapp.com/works/" />
+    <link rel="canonical" href="https://ternoprof.herokuapp.com/наші-роботи/" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
+    <meta property="og:type" content="article" />
+<!--     <meta property="og:url" content="http://www.websiteaddress.com/article/" /> -->
+    <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" data-ngthumb="img_01t.jpg" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.3.1.js" async></script>
     <script src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.js"></script>
-    <link data-ngthumb="img_01t.jpg" href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon-ternoprof.ico" type="image/ico">
     <!-- <script src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.js"></script> -->
-    <title>Ternoprof | Наші роботи</title>
+    <title>Фото наших робіт. Фірма Тернопроф</title>
+    <meta name="description" content="Ознайомтесь з нашими минулими об’єктами  по електромонтажу, відеоспостереженню, освітленню; чистовій і чорновій електриці. Дивіться фото + відео.">
 </head>
 
 <body>
@@ -84,7 +89,7 @@
             <nav class="header__nav">
                 <ul class="flex">
                     <li><a href="../">Електромонтаж</a></li>
-                    <li><a href="../video/">Відеоспостереження</a></li>
+                    <li><a href="../відеоспостереження/">Відеоспостереження</a></li>
                     <li><a href="./" class="active">Наші роботи</a></li>
                 </ul>
             </nav>
@@ -96,7 +101,7 @@
             <nav class="header__nav--mobile">
                 <ul class="flex">
                     <li><a href="../">Електромонтаж</a></li>
-                    <li><a href="../video/">Відеоспостереження</a></li>
+                    <li><a href="../відеоспостереження/">Відеоспостереження</a></li>
                     <li><a href="./" class="active">Наші роботи</a></li>
                 </ul>
             </nav>
@@ -247,8 +252,7 @@
         </div>
         <div class="layout-second">
         </div>
-        <script src="../js/main.js"></script>
-        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+        <script src="../js/main.js" async></script>
 </body>
 
 </html>

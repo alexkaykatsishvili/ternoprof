@@ -83,7 +83,7 @@ function checkInput($data) {
 // print_r($_POST);
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -126,15 +126,16 @@ function checkInput($data) {
     <!-- /Yandex.Metrika counter -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="canonical" href="https://ternoprof.herokuapp.com/video/" />
+    <link rel="canonical" href="https://ternoprof.herokuapp.com/відеоспостереження/" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon-ternoprof.ico" type="image/ico">
-    <title>Ternoprof | Відеоспостереження</title>
+    <title>Якісний монтаж відеоспостереження в Тернополі. Тернопроф</title>
+    <meta name="description" content="Якісний монтаж відеонагляду в Тернополі і області. 1 рік гарантії. Трансляція зображення на всіх Ваших пристроях: смартфоні, планшеті, ноутбуці!">
 </head>
 
 <body>
@@ -176,7 +177,7 @@ function checkInput($data) {
                     <ul class="flex">
                         <li><a href="../">Електромонтаж</a></li>
                         <li><a href="./" class="active">Відеоспостереження</a></li>
-                        <li><a href="../works/">Наші роботи</a></li>
+                        <li><a href="../наші-роботи/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__nav_icon order-1">
@@ -188,7 +189,7 @@ function checkInput($data) {
                     <ul class="flex">
                         <li><a href="../">Електромонтаж</a></li>
                         <li><a href="./">Відеоспостереження</a></li>
-                        <li><a href="../works/">Наші роботи</a></li>
+                        <li><a href="../наші-роботи/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -422,7 +423,7 @@ function checkInput($data) {
                     </div>
                     <!-- Optional JavaScript -->
                     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+                    <script src="../js/jquery-3.3.1.js" async></script>
                     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/vue-the-mask@0.11.1/dist/vue-the-mask.min.js"></script>
@@ -443,7 +444,7 @@ function checkInput($data) {
                     </script>
                     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
                     <script type="text/javascript" src="../slick/slick.min.js"></script>
-                    <script src="../js/main.js"></script>
+                    <script src="../js/main.js" async></script>
                     <script>
                     $(document).ready(function() {
                         $('.main__slider').slick({
@@ -456,7 +457,6 @@ function checkInput($data) {
                         });
                     });
                     </script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -13,12 +13,12 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://ternoprof.herokuapp.com/video/</loc>
+  <loc>https://ternoprof.herokuapp.com/відеоспостереження/</loc>
   <lastmod>2018-10-17T13:06:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ternoprof.herokuapp.com/works/</loc>
+  <loc>https://ternoprof.herokuapp.com/наші-роботи/</loc>
   <lastmod>2018-10-17T13:06:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>

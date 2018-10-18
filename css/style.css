@@ -468,11 +468,11 @@ ul li {
 .night-cam-2 {
   max-width: 100%;
   height: 230px;
-  background: url(../img/night-cam.png) no-repeat 50%;
+  background: url(../img/night-cam.jpg) no-repeat 50%;
   background-size: contain; }
 
 .night-cam-2 {
-  background: url(../img/night-cam-2.png) no-repeat 50%;
+  background: url(../img/night-cam-2.jpg) no-repeat 50%;
   background-size: contain; }
 
 .gallery-wrapper {
@@ -560,6 +560,10 @@ ul li {
   .night-cam,
   .night-cam-2 {
     height: 300px; } }
+@media (min-width: 1366px) {
+  .night-cam,
+  .night-cam-2 {
+    height: 380px; } }
 @media (max-width: 1368px) {
   h1 {
     font-size: 50px; }

@@ -83,7 +83,7 @@ function checkInput($data) {
 // print_r($_POST);
 ?>
     <!doctype html>
-    <html lang="en">
+    <html lang="en" prefix="og: http://ogp.me/ns#">
 
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -128,11 +128,16 @@ function checkInput($data) {
         <meta charset="utf-8">
         <link rel="canonical" href="https://ternoprof.herokuapp.com" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
+        <meta property="og:type" content="article" />
+    <!--     <meta property="og:url" content="http://www.websiteaddress.com/article/" /> -->
+        <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="img/favicon-ternoprof.ico" type="image/ico">
-        <title>Ternoprof | Головна сторінка</title>
+        <title>Електромонтажні роботи в Тернополі. 10 років гарантії</title>
+        <meta name="description" content="Якісні послуги електриків в Тернополі і області. Дивіться 4-хвилинне відео і дізнайтеся все про ідеальну електрику в будинку!">
     </head>
 
     <body>
@@ -162,8 +167,8 @@ function checkInput($data) {
                 <nav class="header__nav">
                     <ul class="flex">
                         <li><a href="./" class="active">Електромонтаж</a></li>
-                        <li><a href="video/">Відеоспостереження</a></li>
-                        <li><a href="works/">Наші роботи</a></li>
+                        <li><a href="відеоспостереження/">Відеоспостереження</a></li>
+                        <li><a href="наші-роботи/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__nav_icon order-1">
@@ -174,8 +179,8 @@ function checkInput($data) {
                 <nav class="header__nav--mobile">
                     <ul class="flex">
                         <li><a href="./" class="active">Електромонтаж</a></li>
-                        <li><a href="video/">Відеоспостереження</a></li>
-                        <li><a href="works/">Наші роботи</a></li>
+                        <li><a href="відеоспостереження/">Відеоспостереження</a></li>
+                        <li><a href="наші-роботи/">Наші роботи</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -189,7 +194,7 @@ function checkInput($data) {
                     <a href="tel:+380664491767">+380 66 449 1767</a>
                 </div>
                 <div class="row align-items-center">
-                    <div class="main__content-left col-12 col-lg-5 text-lg-left">
+                    <div class="main__content-left col-12 col-lg-5 col-xl-4 offset-1 text-lg-left">
                         <svg onclick="play()" class="pulse-button" id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <path d="m256 0c-141.382812 0-256 114.617188-256 256 0 141.386719 114.617188 256 256 256 141.386719 0 256-114.613281 256-256-.167969-141.316406-114.683594-255.832031-256-256zm0 480c-123.710938 0-224-100.289062-224-224s100.289062-224 224-224 224 100.289062 224 224c-.132812 123.65625-100.34375 223.867188-224 224zm0 0" fill="#fff" />
                             <path d="m375.871094 242.0625-160-90.496094c-7.691406-4.347656-17.453125-1.632812-21.800782 6.058594-1.355468 2.398438-2.070312 5.109375-2.070312 7.863281v181.023438c0 8.835937 7.164062 16 16 16 2.761719.003906 5.472656-.714844 7.871094-2.078125l160-90.496094c7.695312-4.34375 10.417968-14.101562 6.074218-21.796875-1.429687-2.542969-3.53125-4.644531-6.074218-6.078125zm-151.871094 77.011719v-126.144531l111.503906 63.070312zm0 0" fill="#fff" />
@@ -338,7 +343,7 @@ function checkInput($data) {
             </div>
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="js/jquery-3.3.1.js" async></script>
             <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/vue-the-mask@0.11.1/dist/vue-the-mask.min.js"></script>
@@ -357,7 +362,7 @@ function checkInput($data) {
                 }
             })
             </script>
-            <script src="js/main.js"></script>
+            <script src="js/main.js" async></script>
             <script>
             // 2. This code loads the IFrame Player API code asynchronously.
             var tag = document.createElement('script');
@@ -386,7 +391,6 @@ function checkInput($data) {
                 player.pauseVideo();
             }
             </script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 
     </html>
