@@ -175,7 +175,7 @@ function checkInput($data) {
                     </div>
                     <div>
                         <p class="title">Ternoprof</p>
-                        <p>Електромонтажна фірма</p>
+                        <p>Відеоспостереження в Тернополі</p>
                     </div>
                 </a>
                 </div>
@@ -212,8 +212,7 @@ function checkInput($data) {
                                     <div><img src="../img/camera-4.png" alt="видеокамера"></div>
                                     </div>
                                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
-                                        <h1>Монтуємо високоякісний відеонагляд в часному секторі та
-на територіях підприємств</h1>
+                                        <h1>Відеоспостереження в Тернополі</h1>
                                         <button class="get-price">отримати прайс-лист</button>
                                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                                         <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
@@ -429,7 +428,7 @@ function checkInput($data) {
                     </div>
                     <!-- Optional JavaScript -->
                     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                    <script src="../js/jquery-3.3.1.js" async></script>
+                    <script src="../js/jquery-3.3.1.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/vue-the-mask@0.11.1/dist/vue-the-mask.min.js"></script>
@@ -450,7 +449,7 @@ function checkInput($data) {
                     </script>
                     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
                     <script type="text/javascript" src="../slick/slick.min.js"></script>
-                    <script src="../js/main.js" async></script>
+                    <script src="../js/main.js"></script>
                     <script>
                     $(document).ready(function() {
                         $('.main__slider').slick({

@@ -479,8 +479,11 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%; }
+  .gallery-wrapper h1 {
+    max-width: 100%;
+    margin-bottom: 2%; }
   .gallery-wrapper div#ngy2p {
     width: 100%; }
 
@@ -522,8 +525,8 @@ ul li {
     height: 60px;
     animation: spin 2s linear infinite;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 47%;
+    left: 48.5%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 2000; }
   .preloader.complete {
