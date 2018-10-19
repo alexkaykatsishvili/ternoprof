@@ -42,20 +42,19 @@
     <!-- /Yandex.Metrika counter -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="canonical" href="https://ternoprof.herokuapp.com/наші-роботи/" />
+    <link rel="canonical" href="http://ternoprof.com.ua/наші-роботи/" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="Фото наших робіт. Фірма Тернопроф" />
     <meta property="og:site_name" content="Ternoprof">
-    <meta property="og:url" content="https://ternoprof.herokuapp.com/наші-роботи/">
+    <meta property="og:url" content="http://ternoprof.com.ua/наші-роботи/">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="Ознайомтесь з нашими минулими об’єктами  по електромонтажу, відеоспостереженню, освітленню; чистовій і чорновій електриці. Дивіться фото + відео.">
-    <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
+    <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../js/jquery-3.3.1.js" async></script>
-    <script src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.js"></script>
+    
     <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon-ternoprof.ico" type="image/ico">
@@ -254,6 +253,8 @@
         </div>
         <div class="layout-second">
         </div>
+        <script src="../js/jquery-3.3.1.js" async></script>
+        <script src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.js"></script>
         <script src="../js/main.js" async></script>
 </body>
 

@@ -126,14 +126,14 @@ function checkInput($data) {
         <!-- /Yandex.Metrika counter -->
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <link rel="canonical" href="https://ternoprof.herokuapp.com" />
+        <link rel="canonical" href="http://ternoprof.com.ua" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
         <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
         <meta property="og:site_name" content="Ternoprof">
-        <meta property="og:url" content="https://ternoprof.herokuapp.com">
+        <meta property="og:url" content="http://ternoprof.com.ua">
         <meta property="og:type" content="article" />
         <meta property="og:description" content="Якісні послуги електриків в Тернополі і області. Дивіться 4-хвилинне відео і дізнайтеся все про ідеальну електрику в будинку!">
-        <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
+        <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">

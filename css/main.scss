@@ -700,6 +700,9 @@ h4.heading {
     // background: #000;
     transition: 1s;
     z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:before {
         content: "";
@@ -738,10 +741,10 @@ h4.heading {
         width: 60px;
         height: 60px;
         animation: spin 2s linear infinite;
-        position: absolute;
-        top: 47%;
-        left: 48.5%;
-        transform: translateX(-50%) translateY(-50%);
+        // position: absolute;
+        // top: 47%;
+        // left: 48.5%;
+        // transform: translateX(-50%) translateY(-50%);
         z-index: 2000;
     }
 
@@ -1043,13 +1046,17 @@ h4.heading {
             }
 
             .show-more {
-                font-size: 25px;
+                font-size: 22px;
+            }
+            #play {
+                height: 80px;
+                width: 80px;
             }
         }
 
         &__content-right {
             h4 {
-                font-size: 30px;
+                font-size: 26px;
             }
         }
 
@@ -1092,4 +1099,3 @@ h4.heading {
         }
     }
 }
-

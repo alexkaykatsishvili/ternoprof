@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ternoprof.herokuapp.com/sitemap.xml
+Sitemap: https://ternoprof.com.ua/sitemap.xml
