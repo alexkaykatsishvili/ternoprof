@@ -685,6 +685,9 @@ h4.heading {
   .confidence-policy {
     width: 90%; }
 
+  .wrapper {
+    display: block; }
+
   .header__logo {
     font-size: 16px; }
     .header__logo svg {
@@ -707,6 +710,9 @@ h4.heading {
   .footer {
     font-size: 13px; } }
 @media (max-width: 500px) {
+  h1 {
+    font-size: 17px; }
+
   .header__logo svg {
     height: 50px;
     width: 50px; }
@@ -719,5 +725,23 @@ h4.heading {
       margin: 1px auto; }
       .footer div:last-child {
         order: -1; } }
+@media (max-width: 360px) {
+  .header {
+    padding-top: 22px; }
+
+  .header__logo {
+    width: 100%; }
+
+  .wrapper-video .block .header {
+    padding-top: 28px; }
+
+  .header__nav_icon {
+    position: fixed;
+    top: 30px;
+    right: 20px; }
+
+  .main-link {
+    flex-direction: column;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -154,12 +154,12 @@ function checkInput($data) {
         </div>
         <div class="layout-second">
         </div>
-        <div class="block">
+        <div class="block" style="min-height: 100vh;">
             <a id="myAnchor4"></a>
             <a class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <header class="header flex">
                 <div class="header__logo">
-                    <a href="../" class="flex">
+                    <a href="../" class="flex main-link">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="999.92" height="999.92" viewBox="0 0 2081 2081">
                             <defs>
@@ -258,7 +258,7 @@ function checkInput($data) {
                                             на всі Ваші пристрої, щоб Ви мали доступ
                                             до камер незалежно від Вашого
                                             місцезнаходження. Потрібен лише інтернет.</p>
-                                        <div class="icons"></div>
+                                        <div class="icons mb-4"></div>
                                     </div>
                                 </div>
                             </div>

@@ -608,6 +608,7 @@ h4.heading {
     right: 20px;
     width: 80px;
     z-index: 2000;
+
     svg {
         width: 60px;
     }
@@ -652,6 +653,7 @@ h4.heading {
         transform: translate3d(0, 10px, 0);
     }
 }
+
 .master {
     max-width: 100%;
     height: 345px;
@@ -686,6 +688,7 @@ h4.heading {
     // flex-direction: row;
     flex-direction: column;
     width: 100%;
+
     div#ngy2p {
         width: 100%;
     }
@@ -798,6 +801,7 @@ h4.heading {
             }
         }
     }
+
     .night-cam,
     .night-cam-2 {
         height: 300px;
@@ -805,6 +809,7 @@ h4.heading {
 }
 
 @media (min-width: 1366px) {
+
     .night-cam,
     .night-cam-2 {
         height: 380px;
@@ -1027,6 +1032,10 @@ h4.heading {
         width: 90%;
     }
 
+    .wrapper {
+        display: block;
+    }
+
     .header {
         &__logo {
             font-size: 16px;
@@ -1048,6 +1057,7 @@ h4.heading {
             .show-more {
                 font-size: 22px;
             }
+
             #play {
                 height: 80px;
                 width: 80px;
@@ -1073,6 +1083,10 @@ h4.heading {
 }
 
 @media (max-width: 500px) {
+    h1 {
+        font-size: 17px;
+    }
+
     .header {
         &__logo {
             svg {
@@ -1097,5 +1111,30 @@ h4.heading {
                 order: -1;
             }
         }
+    }
+}
+
+@media (max-width: 360px) {
+    .header {
+        padding-top: 22px;
+    }
+
+    .header__logo {
+        width: 100%;
+    }
+
+    .wrapper-video .block .header {
+        padding-top: 28px;
+    }
+
+    .header__nav_icon {
+        position: fixed;
+        top: 30px;
+        right: 20px;
+    }
+
+    .main-link {
+        flex-direction: column;
+        text-align: center;
     }
 }

@@ -146,7 +146,7 @@ function checkInput($data) {
         <div class="wrapper">
             <header class="header flex">
                 <div class="header__logo">
-                    <a href="./" class="flex">
+                    <a href="./" class="flex main-link">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="999.92" height="999.92" viewBox="0 0 2081 2081">
                                 <defs>
