@@ -175,7 +175,7 @@ function checkInput($data) {
                     </div>
                     <div>
                         <p class="title">Ternoprof</p>
-                        <p>Відеоспостереження в Тернополі</p>
+                        <h1>Відеоспостереження в Тернополі</h1>
                     </div>
                 </a>
                 </div>
@@ -212,7 +212,7 @@ function checkInput($data) {
                                     <div><img src="../img/camera-4.png" alt="видеокамера"></div>
                                     </div>
                                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
-                                        <h1>Відеоспостереження в Тернополі</h1>
+                                        <h4 class="heading">Монтуємо високоякісний відеонагляд в часному секторі та на територіях підприємств</h4>
                                         <button class="get-price">отримати прайс-лист</button>
                                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                                         <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">

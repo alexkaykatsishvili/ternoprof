@@ -84,7 +84,7 @@
                     </div>
                     <div>
                         <p class="title">Ternoprof</p>
-                        <p>Електромонтажні роботи в Тернополі</p>
+                        <h1>Електромонтажні роботи в Тернополі</h1>
                     </div>
                 </a>
             </div>
@@ -118,7 +118,6 @@
                 <a href="tel:+380664491767">+380 66 449 1767</a>
             </div>
             <div class="gallery-wrapper">
-                <h1>Електромонтажні роботи в Тернополі</h1>
                 <div ID="ngy2p" data-nanogallery2='{
                     "itemsBaseURL": "https://ternoprof.herokuapp.com/img/",
                     "thumbnailWidth": "auto",

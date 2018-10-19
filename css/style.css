@@ -31,10 +31,6 @@ button {
   button:hover {
     background-color: #c3dfe4; }
 
-h1 {
-  font-size: 64px;
-  max-width: 750px; }
-
 a {
   color: #fff;
   text-decoration: none; }
@@ -43,6 +39,15 @@ a {
 
 ul li {
   list-style-type: none; }
+
+h1 {
+  font-size: 24px; }
+
+h4.heading {
+  font-size: 64px;
+  max-width: 750px;
+  font-family: BebasNeue, Helvetica, Arial, sans-serif;
+  line-height: 1.2; }
 
 .active {
   color: #fff;
@@ -481,9 +486,6 @@ ul li {
   justify-content: center;
   flex-direction: column;
   width: 100%; }
-  .gallery-wrapper h1 {
-    max-width: 100%;
-    margin-bottom: 2%; }
   .gallery-wrapper div#ngy2p {
     width: 100%; }
 
@@ -568,7 +570,7 @@ ul li {
   .night-cam-2 {
     height: 380px; } }
 @media (max-width: 1368px) {
-  h1 {
+  h4 {
     font-size: 50px; }
 
   .main__content-left .show-more {
@@ -695,7 +697,7 @@ ul li {
     height: 70%; }
   .main__content-left .show-more {
     font-size: 25px; }
-  .main__content-right h1 {
+  .main__content-right h4 {
     font-size: 30px; }
   .main__slider img {
     height: 150px; }

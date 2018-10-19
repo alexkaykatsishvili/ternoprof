@@ -162,7 +162,7 @@ function checkInput($data) {
                         </div>
                         <div>
                             <p class="title">Ternoprof</p>
-                            <p>Електромонтажні роботи в Тернополі</p>
+                            <h1>Електромонтажні роботи в Тернополі</h1>
                         </div>
                     </a>
                 </div>
@@ -205,7 +205,7 @@ function checkInput($data) {
                         <div id="player" class="video"></div>
                     </div>
                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
-                        <h1>Електромонтажні роботи в Тернополі</h1>
+                        <h4 class="heading">Робимо преміум-електромонтаж в квартирах і котеджах</h4>
                         <button class="get-price">отримати прайс-лист</button>
                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                         <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
