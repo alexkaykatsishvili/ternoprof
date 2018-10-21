@@ -152,7 +152,7 @@ function checkInput($data) {
         </div>
         <div class="block" style="min-height: 100vh;">
             <a id="myAnchor4"></a>
-            <a style="display: block;" class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
+            <a class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <header class="header flex">
                 <div class="header__logo">
                     <a href="../" class="flex main-link">
