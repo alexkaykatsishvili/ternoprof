@@ -125,7 +125,7 @@
                     "thumbnailHoverEffect2": "toolsAppear|labelOpacity50|imageScaleIn80",
                     "thumbnailAlignment": "center",
                     "galleryDisplayMode":    "pagination",
-                    "galleryMaxRows":        2,
+                    "galleryMaxRows":        1,
                     "galleryPaginationMode": "dots"
                   }'>
                     <a data-ngthumb="Чорновий етап/tn_Збірка електрощита 01.JPG" href="Чорновий етап/Збірка електрощита 01.JPG"

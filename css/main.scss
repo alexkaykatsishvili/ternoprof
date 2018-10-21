@@ -59,7 +59,7 @@ h1 {
 }
 
 h4.heading {
-    font-size: 64px;
+    font-size: 56px;
     max-width: 750px;
     font-family: BebasNeue, Helvetica, Arial, sans-serif;
     line-height: 1.2;
@@ -364,7 +364,7 @@ h4.heading {
             width: 100%;
             transform: translateY(-210px);
             transition: transform 250ms ease-in-out;
-            background: #282726;
+            background: rgb(34, 34, 34);
 
             ul {
                 flex-direction: column;
@@ -588,7 +588,7 @@ h4.heading {
     // align-items: center;
     .next {
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         left: 50%;
         transform: translateX(-50%);
         z-index: 500;
@@ -711,7 +711,7 @@ h4.heading {
         content: "";
         position: absolute;
         left: 0;
-        width: 50%;
+        width: 51%;
         height: 100%;
         background: #000;
         transition: 1s;
@@ -725,7 +725,7 @@ h4.heading {
         content: "";
         position: absolute;
         right: 0;
-        width: 50%;
+        width: 51%;
         height: 100%;
         background: #000;
         transition: 1s;
@@ -743,7 +743,8 @@ h4.heading {
         border-radius: 50%;
         width: 60px;
         height: 60px;
-        animation: spin 2s linear infinite;
+        // animation: spin 2s linear infinite;
+        animation: spin 2s infinite;
         // position: absolute;
         // top: 47%;
         // left: 48.5%;
@@ -802,13 +803,13 @@ h4.heading {
         }
     }
 
-    .night-cam,
-    .night-cam-2 {
-        height: 300px;
-    }
+    // .night-cam,
+    // .night-cam-2 {
+    //     height: 300px;
+    // }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1368px) {
 
     .night-cam,
     .night-cam-2 {
@@ -914,7 +915,8 @@ h4.heading {
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 28px;
+        font-size: 33px;
+        margin-bottom: 50px;
     }
 
     h3 {
@@ -927,20 +929,20 @@ h4.heading {
         }
     }
 
+    .contacts {
+        margin: 15px auto 25px;
+        display: flex;
+        width: 100%;
+        font-size: 20px;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
     .main {
         overflow-y: auto;
-
-        .contacts {
-            margin: 15px auto 25px;
-            display: flex;
-            width: 100%;
-            font-size: 19px;
-            justify-content: space-around;
-
-            a {
-                text-decoration: none;
-            }
-        }
 
         &__content-left {
             .video {
@@ -982,9 +984,16 @@ h4.heading {
                 }
             }
 
+            .spy-cam {
+                p {
+                    padding: 30px 0;
+                }
+            }
+
             .night-mode {
                 p {
                     text-align: left;
+
                 }
             }
 
@@ -993,6 +1002,17 @@ h4.heading {
                     margin-bottom: 50px;
                     width: 100%;
 
+                }
+            }
+
+            .mounting {
+                p {
+                    padding-top: 30px;
+                    margin: 0;
+                }
+
+                .get-price {
+                    margin-top: 30px;
                 }
             }
 
@@ -1036,6 +1056,13 @@ h4.heading {
         display: block;
     }
 
+    .night-cam,
+    .night-cam-2,
+    .master {
+        background-size: cover;
+    }
+
+
     .header {
         &__logo {
             font-size: 16px;
@@ -1066,7 +1093,7 @@ h4.heading {
 
         &__content-right {
             h4 {
-                font-size: 26px;
+                font-size: 36px;
             }
         }
 
@@ -1084,7 +1111,7 @@ h4.heading {
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .header {
@@ -1114,7 +1141,15 @@ h4.heading {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
+    .main__content-right h4 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
     .header {
         padding-top: 22px;
     }

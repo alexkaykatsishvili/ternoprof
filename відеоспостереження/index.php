@@ -145,10 +145,6 @@ function checkInput($data) {
 </head>
 
 <body>
-    <div class="contacts">
-        <a href="tel:+380967596569">+380 96 759 6569</a>
-        <a href="tel:+380664491767">+380 66 449 1767</a>
-    </div>
     <div class="wrapper-video">
         <div class="layout">
         </div>
@@ -156,7 +152,7 @@ function checkInput($data) {
         </div>
         <div class="block" style="min-height: 100vh;">
             <a id="myAnchor4"></a>
-            <a class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
+            <a style="display: block;" class="next" href="#myAnchor" id="anchor1"><img src="../img/arrow.svg" alt="arrow" class="ball"></a>
             <header class="header flex">
                 <div class="header__logo">
                     <a href="../" class="flex main-link">
@@ -204,6 +200,10 @@ function checkInput($data) {
                 </div>
             </header>
             <div class="cover">
+                <div class="contacts">
+                    <a href="tel:+380967596569">+380 96 759 6569</a>
+                    <a href="tel:+380664491767">+380 66 449 1767</a>
+                </div>
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-5 main__slider">
                         <div><img src="../img/camera-1.png" alt="видеокамера"></div>
@@ -250,10 +250,10 @@ function checkInput($data) {
                             <h2>Трансляція на всіх ваших пристроях</h2>
                             <div class="cover">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-lg-6">
                                         <div class="monitors"></div>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-lg-6">
                                         <p>Встановлюємо програмне забезпечення
                                             на всі Ваші пристрої, щоб Ви мали доступ
                                             до камер незалежно від Вашого
@@ -269,10 +269,10 @@ function checkInput($data) {
                             <h2>працює вночі</h2>
                             <div class="cover">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-lg-4">
                                         <div class="night-cam"></div>
                                     </div>
-                                    <div class="col-12 col-md-8">
+                                    <div class="col-12 col-lg-8 spy-cam">
                                         <p>На відміну від яскравої картинки, на вулиці абсолютна темінь.
                                             Таке зображення з камери можливо завдяки інфрочервоній
                                             підсвідці. Камери мають підсвітку різної дальності, а також багато інших
@@ -280,13 +280,13 @@ function checkInput($data) {
                                     </div>
                                 </div>
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-8 order-3 order-md-0 night-mode">
+                                    <div class="col-12 col-lg-8 order-3 order-md-0 spy-cam night-mode">
                                         <p>Запис можна здійснювати як безперервно, так і тільки при виявленні руху
                                             в кадрі. Наглядач може отримувати спеціальне попередження (візуальне
                                             чи акустичне) при виявленні руху. Ми налаштовуємо систему
                                             відеоспостереження так, як цього вимагає конкретна задача.</p>
                                     </div>
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-lg-4">
                                         <div class="night-cam night-cam-2"></div>
                                     </div>
                                 </div>
@@ -303,13 +303,13 @@ function checkInput($data) {
                                 <g><circle cx="42.00" cy="42.00" r="42.00" fill="rgb(255,255,255)" opacity="0.26"/><path fillRule="evenodd" d="M 63.89 48.35C 63.89 48.35 43.89 25.36 43.89 25.36 43.41 24.81 42.72 24.5 42 24.5 41.28 24.5 40.59 24.81 40.12 25.36 40.12 25.36 20.11 48.35 20.11 48.35 19.2 49.39 19.31 50.97 20.35 51.88 21.4 52.79 22.97 52.68 23.88 51.64 23.88 51.64 42 30.81 42 30.81 42 30.81 60.12 51.63 60.12 51.63 61.03 52.68 62.61 52.79 63.65 51.88 64.69 50.97 64.8 49.39 63.89 48.35 63.89 48.35 63.89 48.35 63.89 48.35Z" fill="rgb(255,255,255)"/></g></svg>
                             </a>
                             <h2>оперативний монтаж і гарантія якості</h2>
-                            <div class="cover">
+                            <div class="cover mounting">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-lg-6">
                                         <div class="master"></div>
                                     </div>
-                                    <div class="col-12 col-md-6">
-                                        <p>Звичайну систему на 5 камер ми монтуємо до 3х днів.
+                                    <div class="col-12 col-lg-6">
+                                        <p>Звичайну систему на 4 камери ми монтуємо до 3х днів.
                                             На всю виконану роботу ми забезпечуємо гарантію
                                             протягом 1 року.
                                         </p>
