@@ -735,7 +735,7 @@ h4.heading {
       margin: 1px auto; }
       .footer div:last-child {
         order: -1; } }
-@media (max-width: 430px) {
+@media (max-width: 360px) {
   .main__content-right h4 {
     font-size: 26px; }
 
