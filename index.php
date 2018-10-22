@@ -53,9 +53,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         $headers .= "X-MSMail-Priority: High\r\n\r\n";
 
         if ($nameErr == null && $phoneErr == null) {
-
             //Send the email
             $send = mail($to, $subject, $message, $headers);
+        ?>
+        <div class="status flex modal-w">
+            <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+            <a class="download" href="#" download>Скачати прайс-лист</a>
+            <?php  print "<meta HTTP-EQUIV=Refresh CONTENT=\"; URL=$url\">"; ?>
+        </div>
+        <div class="status-close"></div>
+        <?php
         } 
     }
 }
@@ -180,14 +187,6 @@ function checkInput($data) {
                 </div>
             </header>
             <main class="main col">
-                <?php if($send) {
-                    echo
-                    '<div class="status flex modal-w">
-                        <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-                        <a class="download" href="#" download>Скачати прайс-лист</a>
-                    </div><div class="status-close"></div>';
-                    }
-                ?>
                 <div class="contacts">
                     <a href="tel:+380967596569">+380 96 759 6569</a>
                     <a href="tel:+380664491767">+380 66 449 1767</a>
