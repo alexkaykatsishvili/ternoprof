@@ -225,7 +225,7 @@ function checkInput($data) {
                                                         <?php echo $nameErr;?>
                                                     </div>
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group" style="position: relative;">
                                                     <label for="phone">Телефон</label>
                                                     <input class="form-control" name="phone" id="phone" type="tel" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
                                                     <div class="error">
