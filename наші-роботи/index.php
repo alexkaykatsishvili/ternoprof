@@ -49,7 +49,7 @@
     <meta property="og:url" content="http://ternoprof.com.ua/наші-роботи/">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="Ознайомтесь з нашими минулими об’єктами  по електромонтажу, відеоспостереженню, освітленню; чистовій і чорновій електриці. Дивіться фото + відео.">
-    <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
+    <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Optional JavaScript -->

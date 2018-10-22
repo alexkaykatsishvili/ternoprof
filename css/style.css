@@ -379,8 +379,8 @@ h4.heading {
         position: relative; }
       .main__content_form .form #phone-mask {
         position: absolute;
-        bottom: 110px;
-        left: 92px;
+        top: 45px;
+        left: 53px;
         color: #dedede;
         pointer-events: none; }
       .main__content_form .form input[type="submit"] {

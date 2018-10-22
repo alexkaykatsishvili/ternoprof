@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             $name = checkInput($_POST["name"]);
             if (!preg_match("/^[а-яА-Я\p{Cyrillic}\s\-]+$/u", $name)) {
-                $nameErr = "Ім'я може складатися лише з літер української мови"; 
+                $nameErr = "Ім'я може складатися лише з кирилиці"; 
             }
         }
 
@@ -25,10 +25,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                 $phoneErr = "Телефон може складатися лише з цифр"; 
             }
             if (strlen($phone) < 19) {
-                $phoneErr = "Телефон може складатися не менше ніж з 19 символів"; 
+                $phoneErr = "Телефон може складатися не менше ніж з 12 цифр"; 
             }
             if (strlen($phone) > 19) {
-                $phoneErr = "Телефон може складатися не більш ніж з 19 символів"; 
+                $phoneErr = "Телефон може складатися не більш ніж з 12 цифр"; 
             }
         }
 
@@ -133,7 +133,7 @@ function checkInput($data) {
     <meta property="og:url" content="http://ternoprof.com.ua/відеоспостереження/">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="Якісний монтаж відеонагляду в Тернополі і області. 1 рік гарантії. Трансляція зображення на всіх Ваших пристроях: смартфоні, планшеті, ноутбуці!">
-    <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
+    <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
@@ -221,7 +221,6 @@ function checkInput($data) {
                                                 <div class="form-group">
                                                     <label for="name">Ім'я</label>
                                                     <input class="form-control" name="name" id="name" type="text" placeholder="Іван" required>
-                                                    <div class="invalid-feedback">This field is required.</div>
                                                     <div class="error">
                                                         <?php echo $nameErr;?>
                                                     </div>
@@ -229,7 +228,6 @@ function checkInput($data) {
                                                 <div class="form-group">
                                                     <label for="phone">Телефон</label>
                                                     <input class="form-control" name="phone" id="phone" type="tel" required v-model="model.phone" v-validate="{required: true}" v-mask="'+38 (###) ### ## ##'" v-bind:class="{'form-control': true, 'error': errors.has('phone') }">
-                                                    <div class="invalid-feedback">Телефон може складатися лише з цифр</div>
                                                     <div class="error">
                                                         <?php echo $phoneErr;?>
                                                     </div>
