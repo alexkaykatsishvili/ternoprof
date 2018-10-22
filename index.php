@@ -117,7 +117,7 @@ function checkInput($data) {
         <meta charset="utf-8">
         <link rel="canonical" href="http://ternoprof.com.ua" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-        <meta property="og:title" content="Робимо преміум-електромонтаж в квартирах і котеджах" />
+        <meta property="og:title" content="Електромонтажні роботи в Тернополі. 10 років гарантії" />
         <meta property="og:site_name" content="Ternoprof">
         <meta property="og:url" content="https://ternoprof.herokuapp.com">
         <meta property="og:type" content="article" />
