@@ -198,7 +198,7 @@ function checkInput($data) {
                         <?php if($send) {echo
                                     '<div class="status flex modal-w">
                                         <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-                                        <a class="download" href="#" download>Скачати прайс-лист</a>
+                                        <a class="download" href="assets/ПРАЙС-ЛИСТ_ТЕРНОПРОФ_Електромонтажні_роботи_+_Відеоспостереження.pdf" download>Скачати прайс-лист</a>
                                     </div>
                                     <div class="status-close"></div>';}
                         ?>
