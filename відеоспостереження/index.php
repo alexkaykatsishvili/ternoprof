@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         //Add the recipient email to a variable
-        $to = "alexander.kaykatsishvili@gmail.com";
+        $to = "danil.marketolog@gmail.com";
 
         //Create a subject
         $subject = "$name відправив Вам лист через контактну форму на сайті Ternoprof";
@@ -56,15 +56,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
             //Send the email
             $send = mail($to, $subject, $message, $headers);
-
-        ?>
-<div class="status flex modal-w">
-    <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-    <a class="download" href="#" download>Скачати прайс-лист</a>
-</div>
-<div class="status-close"></div>
-<?php
-
         } 
 
     }
@@ -133,7 +124,7 @@ function checkInput($data) {
     <meta property="og:url" content="http://ternoprof.com.ua/відеоспостереження/">
     <meta property="og:type" content="article" />
     <meta property="og:description" content="Якісний монтаж відеонагляду в Тернополі і області. 1 рік гарантії. Трансляція зображення на всіх Ваших пристроях: смартфоні, планшеті, ноутбуці!">
-    <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
+    <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
@@ -211,6 +202,13 @@ function checkInput($data) {
                                 <div><img src="../img/camera-3.png" alt="видеокамера"></div>
                                     <div><img src="../img/camera-4.png" alt="видеокамера"></div>
                                     </div>
+                                    <?php if($send) {echo
+                                    '<div class="status flex modal-w">
+                                        <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+                                        <a class="download" href="#" download>Скачати прайс-лист</a>
+                                    </div>
+                                    <div class="status-close"></div>';}
+                                    ?>
                                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
                                         <h4 class="heading">Монтуємо високоякісний відеонагляд в часному секторі та на територіях підприємств</h4>
                                         <button class="get-price">отримати прайс-лист</button>

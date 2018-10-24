@@ -38,7 +38,9 @@ button {
         background-color: #c3dfe4;
     }
 }
-
+input[type="submit"] {
+    cursor: pointer;
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -256,7 +258,8 @@ h4.heading {
     justify-content: center;
     max-width: 100%;
     font-size: 20px;
-
+    padding: 20px;
+    text-align: center;
     p {
         font-family: Myriad;
     }
@@ -793,7 +796,12 @@ h4.heading {
 }
 
 
+@media (min-width: 1600px) {
+    .width {
+        width: 100%;
+    }
 
+}
 @media (min-width: 992px) {
     .main {
         &__content-left {

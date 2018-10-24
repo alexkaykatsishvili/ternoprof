@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         //Add the recipient email to a variable
-        $to = "alexander.kaykatsishvili@gmail.com";
+        $to = "danil.marketolog@gmail.com";
 
         //Create a subject
         $subject = "$name відправив Вам лист через контактну форму на сайті Ternoprof";
@@ -55,14 +55,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($nameErr == null && $phoneErr == null) {
             //Send the email
             $send = mail($to, $subject, $message, $headers);
-        ?>
-        <div class="status flex modal-w">
-            <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
-            <a class="download" href="#" download>Скачати прайс-лист</a>
-            <?php  print "<meta HTTP-EQUIV=Refresh CONTENT=\"; URL=$url\">"; ?>
-        </div>
-        <div class="status-close"></div>
-        <?php
         } 
     }
 }
@@ -126,10 +118,10 @@ function checkInput($data) {
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
         <meta property="og:title" content="Електромонтажні роботи в Тернополі. 10 років гарантії" />
         <meta property="og:site_name" content="Ternoprof">
-        <meta property="og:url" content="https://ternoprof.herokuapp.com">
+        <meta property="og:url" content="http://ternoprof.com.ua">
         <meta property="og:type" content="article" />
         <meta property="og:description" content="Якісні послуги електриків в Тернополі і області. Дивіться 4-хвилинне відео і дізнайтеся все про ідеальну електрику в будинку!">
-        <meta property="og:image" content="https://ternoprof.herokuapp.com/img/badge.jpg" />
+        <meta property="og:image" content="http://ternoprof.com.ua/img/badge.jpg" />
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
@@ -191,7 +183,7 @@ function checkInput($data) {
                     <a href="tel:+380967596569">+380 96 759 6569</a>
                     <a href="tel:+380664491767">+380 66 449 1767</a>
                 </div>
-                <div class="row align-items-center">
+                <div class="row align-items-center width">
                     <div class="main__content-left col-12 col-lg-5 col-xl-4 offset-xl-1 text-lg-left">
                         <svg onclick="play()" class="pulse-button" id="play" height="512.00073pt" viewBox="0 0 512.00073 512.00073" width="512.00073pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <path d="m256 0c-141.382812 0-256 114.617188-256 256 0 141.386719 114.617188 256 256 256 141.386719 0 256-114.613281 256-256-.167969-141.316406-114.683594-255.832031-256-256zm0 480c-123.710938 0-224-100.289062-224-224s100.289062-224 224-224 224 100.289062 224 224c-.132812 123.65625-100.34375 223.867188-224 224zm0 0" fill="#fff" />
@@ -203,6 +195,13 @@ function checkInput($data) {
                     <div class="main__content-right col-12 col-lg-7 text-center text-lg-left">
                         <h4 class="heading">Робимо преміум-електромонтаж в квартирах і котеджах</h4>
                         <button class="get-price">отримати прайс-лист</button>
+                        <?php if($send) {echo
+                                    '<div class="status flex modal-w">
+                                        <p>Дякую Вам! Прайс-лист доступний до завантаження:</p>
+                                        <a class="download" href="#" download>Скачати прайс-лист</a>
+                                    </div>
+                                    <div class="status-close"></div>';}
+                        ?>
                         <div class="close-bg" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>"></div>
                         <div class="main__content_form modal-w" style="<?php if ($nameErr != null || $phoneErr != null) { echo " display: block ";} ?>">
                             <form id="form" class="form col-12" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
